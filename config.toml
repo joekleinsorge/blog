@@ -1,5 +1,5 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://confident-ride-4e3bfb.netlify.app'
 languageCode = 'en-us'
 title = 'Joey Kleinsorge'
 
-theme = 'hello-friend-ng'
+theme = 'my-hello-friend-ng'
