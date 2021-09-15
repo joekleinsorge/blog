@@ -14,7 +14,7 @@ modern JavaScript ([ES6 +](https://www.w3schools.com/js/js_es6.asp)) instead.
 As of vRealize Orchestrator 8.4.2, VMware is using a modified ES5 engine. Here
 are some things that work in this implementation.
 
-```javascript
+```js
 // Create a constant object
 const student = {
 	name: 'Harry Potter',
