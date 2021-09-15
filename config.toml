@@ -48,59 +48,32 @@ disableHugoGeneratorInject = false
   dateformShort   = "Jan 2"
   dateformNum     = "2006-01-02"
   dateformNumTime = "2006-01-02"
-  # dateformNumTime = "2006-01-02 15:04" 
 
-  # Metadata mostly used in document's head
-  # 
-  description = "Joey Kleisorge"
+  # Metadata 
+  description = "Joey Kleinsorge"
   keywords = ""
   images = [""]
-
-  # Home subtitle of the index page.
-  #
-  homeSubtitle = "Hello Friend NG"
-
-  # Set a background for the homepage
-  # backgroundImage = "assets/images/background.jpg"
+  homeSubtitle = "Code, issues and solutions"
 
   # Prefix of link to the git commit detail page. GitInfo must be enabled.
-  #
   # gitUrl = ""
 
   # Set disableReadOtherPosts to true in order to hide the links to other posts.
-  #
   disableReadOtherPosts = false
-
-  # Enable theme toggle
-  # 
-  # This options enables the theme toggle for the theme. 
-  # Per default, this option is off. 
-  # The theme is respecting the prefers-color-scheme of the operating systeme. 
-  # With this option on, the page user is able to set the scheme he wants. 
   enableThemeToggle = true
 
   # Sharing buttons
-  #
   # There are a lot of buttons preconfigured. If you want to change them,
   # generate the buttons here: https://sharingbuttons.io
   # and add them into your own `layouts/partials/sharing-buttons.html`
-  #
   enableSharingButtons = true
-
-  # Global language menu
-  #
-  # Enables the global language menu.
-  #
   enableGlobalLanguageMenu = false
 
   # Integrate Javascript files or stylesheets by adding the url to the external assets or by
   # linking local files with their path relative to the static folder, e.g. "css/styles.css"
-  #
   customCSS = []
   customJS  = []
 
-  # Toggle this option need to rebuild SCSS, requires extended version of Hugo
-  #
   justifyContent = true  # Set "text-align: justify" to .post-content.
 
   # Custom footer 
@@ -108,7 +81,7 @@ disableHugoGeneratorInject = false
   #
   [params.footer]
     trademark = true
-    rss = true
+    rss = false
     copyright = true
     author = true
 
@@ -119,7 +92,6 @@ disableHugoGeneratorInject = false
     ]
 
   # Colors for favicons
-  #
   [params.favicon.color]
     mask = "#1b1c1d"
     msapplication = "#1b1c1d"
@@ -127,21 +99,10 @@ disableHugoGeneratorInject = false
 
   [params.logo]
     logoMark     = ">"
-    logoText     = "$ cd /home/"
+    logoText     = "Joey Kleinsorge"
     logoHomeLink = "/"
-    # Set true to remove the logo cursor entirely.
-    # logoCursorDisabled = false
-    # Set to a valid CSS color to change the cursor in the logo.
-    # logoCursorColor    = "#67a2c9"
-    # Set to a valid CSS time value to change the animation duration, "0s" to disable.
-    # logoCursorAnimate  = "2s"
-
-  # Uncomment this if you want a portrait on your start page
-  #
-  # [params.portrait]
-  #   path     = "/img/image.jpg"
-  #   alt      = "Portrait"
-  #   maxWidth = "50px"
+    logoCursorColor    = "#729FCF"
+    logoCursorAnimate  = "1s"
 
   # Social icons
   [[params.social]]
@@ -158,15 +119,14 @@ disableHugoGeneratorInject = false
 
 [languages]
   [languages.en]
-    subtitle  = "Hello Friend NG Theme"
+    subtitle  = "Code, issues and solutions"
     weight    = 1
-    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 
 [menu]
   [[menu.main]]
     identifier = "about"
     name       = "About"
-    url        = "about/"
+    url        = "about"
   [[menu.main]]
     identifier = "posts"
     name       = "Posts"
