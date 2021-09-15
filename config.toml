@@ -61,7 +61,7 @@ disableHugoGeneratorInject = false
   customCSS = []
   customJS  = []
   justifyContent = true  # Set "text-align: justify" to .post-content.
-\
+
   [params.footer]
     trademark = true
     rss = false
