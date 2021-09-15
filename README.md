@@ -1,5 +1,7 @@
 # JoeyKleinsorge.com
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/9d9f896a-16b7-42f9-b874-d2493b10be37/deploy-status)](https://app.netlify.com/sites/confident-ride-4e3bfb/deploys)
+
 Code, articles and utilities for the [JoeyKleinsorge.com](https://JoeyKleinsorge.com) website.
 
 - [Introduction](#introduction)
