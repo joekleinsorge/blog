@@ -14,5 +14,119 @@ modern JavaScript ([ES6 +](https://www.w3schools.com/js/js_es6.asp)) instead.
 As of vRealize Orchestrator 8.4.2, VMware is using a modified ES5 engine. Here
 are some things that work in this implementation.
 
+```javascript
+// Create a constant object
+const student = {
+	name: 'Harry Potter',
+	house: 'Gryffindor',
+	address: {
+		streetNumber: 4,
+		streetName: 'Privet Drive',
+		confirmed: true,
+	},
+};
+
+function sendLetterIfConfirmed(student) {
+	if (!student.address || !student.address.confirmed) return;
+	System.log(
+		'Sending welcome letter to ' +
+			student.name +
+			' at ' +
+			student.address.streetNumber +
+			' ' +
+			student.address.streetName
+	);
+}
+sendLetterIfConfirmed(student);
+
+// Assigning multiple variables
+const colors = ['red', 'green', 'blue'];
+var [x, y, z, a] = colors;
+System.log(x); //red
+System.log(y); //green
+System.log(z); //blue
+System.log(a); //undefined
+
+// do while
+var count = 0;
+do {
+	count++;
+	System.log('count is:' + count);
+} while (count < 10);
+
+// for loop
+for (var counter = 1; counter < 5; counter++) {
+	System.log('Inside the loop:' + counter);
+}
+System.log('Outside the loop:' + counter);
+
+// label
+var iterations = 0;
+top: for (var i = 0; i < 5; i++) {
+	for (var j = 0; j < 5; j++) {
+		iterations++;
+		if (i === 2 && j === 2) {
+			break top;
+		}
+	}
+}
+System.log(iterations); // 13
+
+// ternary operator
+var age = 19;
+var canDrive = age > 16 ? 'yes' : 'no';
+System.log(canDrive); // yes
+
+// isArray
+var seas = ['Black Sea', 'Caribbean Sea', 'North Sea', 'Baltic Sea'];
+var index = seas.indexOf('North Sea');
+System.log(Array.isArray(seas)); // true
+
+//sort
+var employees = [
+	{
+		firstName: 'John',
+		lastName: 'Doe',
+		age: 27,
+		joinedDate: 'December 15, 2017',
+	},
+	{
+		firstName: 'Ana',
+		lastName: 'Rosy',
+		age: 25,
+		joinedDate: 'January 15, 2019',
+	},
+	{
+		firstName: 'Zion',
+		lastName: 'Albert',
+		age: 30,
+		joinedDate: 'February 15, 2011',
+	},
+];
+System.log(employees.sort);
+```
+
 Now here are some things that you might expect to work in vRO, but will return
 validation errors.
+
+```javascript
+// Let does not work
+let x = 10;
+
+// .includes does not work
+const colors = ['red', 'green', 'blue'];
+const result = colors.includes('red');
+
+//  Using backticks ``
+System.log(`This would have been nice: ${variable}`);
+
+//  Optional Chaining
+if (!student.address?.confirmed) return;
+
+//  Spread Operator
+const copyOfStudent = { ...student };
+
+//  padStart
+var number = 4;
+System.log(number.padStart(2, 0));
+```

@@ -10,7 +10,6 @@ With this fun little project, I got to play around with using async, arrow
 functions, and promises in JavaScript along with getting to try out [codepen](https://codepen.io).
 
 Here is the Pokedex in codepen:
+{{< codepen id="oNWVQQe" >}}
 
-See the Pen pokedex
-
-Here is the GitHub repo:
+Here is the [GitHub repo](https://github.com/JoeyKleinsorge/pokedex)
