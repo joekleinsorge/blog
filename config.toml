@@ -22,10 +22,9 @@ canonifyURLs = true
 
 enableRobotsTXT = true
 enableGitInfo   = true
-gitUrl = "https://github.com/JoeyKleinsorge/JoeyKleinsorge.com/commit/"
 enableEmoji     = true
 enableMissingTranslationPlaceholders = false
-disableRSS     = false
+disableRSS     = true
 disableSitemap = false
 disable404     = false
 disableHugoGeneratorInject = false
@@ -61,6 +60,7 @@ disableHugoGeneratorInject = false
   customCSS = []
   customJS  = []
   justifyContent = true  # Set "text-align: justify" to .post-content.
+  gitUrl = 'https://github.com/JoeyKleinsorge/JoeyKleinsorge.com/commit/'
 
   [params.footer]
     trademark = true
