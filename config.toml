@@ -21,7 +21,8 @@ buildExpired = false
 canonifyURLs = true
 
 enableRobotsTXT = true
-enableGitInfo   = false
+enableGitInfo   = true
+gitUrl = "https://github.com/JoeyKleinsorge/JoeyKleinsorge.com/commit/"
 enableEmoji     = true
 enableMissingTranslationPlaceholders = false
 disableRSS     = false
@@ -83,6 +84,17 @@ disableHugoGeneratorInject = false
     logoHomeLink = "/"
     logoCursorColor    = "#729FCF"
     logoCursorAnimate  = "1s"
+
+  # Commento is more than just a comments widget you can embed — 
+  # it’s a return to the roots of the internet. 
+  # An internet without the tracking and invasions of privacy. 
+  # An internet that is simple and lightweight. 
+  # An internet that is focused on interesting discussions, not ads. 
+  # A better internet.
+  # Uncomment this to enable Commento.
+  #
+  # [params.commento]
+  #   url = ""
 
   [[params.social]]
     name = "email"
