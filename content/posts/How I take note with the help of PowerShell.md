@@ -2,8 +2,11 @@
 title: 'How I take notes with the help of PowerShell'
 date: 2021-09-14T18:23:49-04:00
 draft: false
-feature_image: https://images.unsplash.com/photo-1611079830811-865ff4428d17?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDIyfHxub3RlfGVufDB8fHx8MTYyOTc1MTA2Ng&ixlib=rb-1.2.1&q=80&w=2000
+tags:
+  - untagged
 ---
+
+{{< figure src="https://images.unsplash.com/photo-1611079830811-865ff4428d17?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1217&q=80" >}}
 
 A coworker of mine once showed me a really cool python script he used to take notes in vi [https://en.wikipedia.org/wiki/Vi]. It really seemed to simplify and organize how he took notes and at the time I was still trying to figure out a better method than I currently had (OneNote is not fast). I decided to build upon his idea and try to develop it using my preferred tools ( PowerShell and Notepad). Anyways here is what I created and how I use it.
 
