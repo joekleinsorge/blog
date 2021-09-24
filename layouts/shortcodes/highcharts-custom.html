@@ -1,3 +1,7 @@
+<!--
+  Based off of https://github.com/cmlnet/hugo-highcharts
+-->
+
 <!-- Load highcharts.js -->
 {{ if not (.Page.Scratch.Get "highcharts_js") }}
   {{ if (fileExists "assets/js/highcharts.js") }}
@@ -30,9 +34,6 @@
   {{ .Page.Scratch.Set "highcharts_js" 1 }}
 {{ end }}
 
-<!-- <script src="http://code.highcharts.com/highcharts.js"></script>
-<script src="http://code.highcharts.com/highcharts-more.js"></script> -->
-
 <!-- Place the chart -->
 <div id="{{ .Get "chart" | default "chart" }}" style="min-width: 400px; max-width: 600px; height: 400px; margin: 0 auto"></div>
 
@@ -44,3 +45,4 @@
     });
   });
 </script>
+
