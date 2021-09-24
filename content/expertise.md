@@ -54,7 +54,7 @@ pointFormat: '{series.name}: <b>{point.y:,.0f}</b><br/>',
 series: [
 {
 name: 'Experience',
-data: [8, 6, 8, 6, 4, 8, 6, 8, 7, 4],
+data: [9,8,8,8,8,7,6,8,7,9],
 pointPlacement: 'on',
 //fillColor: 'Blue Gray',
 fillOpacity: 0.6,
