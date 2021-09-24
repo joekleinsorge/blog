@@ -1,4 +1,4 @@
-baseURL = 'www.joeykleinsorge.com'
+baseURL = 'https://joeykleinsorge.netlify.app/'
 languageCode = 'en-us'
 title = 'Joey Kleinsorge'
 theme = 'my-hello-friend-ng'
