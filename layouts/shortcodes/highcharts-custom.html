@@ -32,8 +32,9 @@
 -->
 
 <script src="http://code.highcharts.com/highcharts.js"></script>
+{{ .Page.Scratch.Set "highcharts_js" 1 }}
 <script src="http://code.highcharts.com/highcharts-more.js"></script>
-<script src="http://code.highcharts.com/modules/exporting.js"></script>
+{{ .Page.Scratch.Set "highcharts-more_js" 1 }}
 
 <!-- Place the chart -->
 <div id="{{ .Get "chart" | default "chart" }}" style="min-width: 400px; max-width: 600px; height: 400px; margin: 0 auto"></div>
