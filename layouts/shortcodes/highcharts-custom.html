@@ -1,20 +1,4 @@
-<!--
-<!-- Load and optimize highcharts.css 
-{{ if not (.Page.Scratch.Get "highcharts_css") }}
-  {{ if (fileExists "assets/css/highcharts.css") }}
-  {{ $styles := resources.Get "css/highcharts.css" }}
-  {{ $styles = $styles | resources.PostCSS }}
-  {{ if  hugo.IsProduction  }}
-    {{ $styles = $styles | minify | fingerprint }}
-  {{ end }}
-  <link href="{{ $styles.RelPermalink }}" rel="stylesheet" />
-  {{ else }}
-  <link href="https://code.highcharts.com/css/highcharts.css" rel="stylesheet" />
-  {{ end }}
-  {{ .Page.Scratch.Set "highcharts_css" 1 }}
-{{ end }}
-
-<!-- Load highcharts.js 
+<!-- Load highcharts.js -->
 {{ if not (.Page.Scratch.Get "highcharts_js") }}
   {{ if (fileExists "assets/js/highcharts.js") }}
     {{ $script := resources.Get "js/highcharts.js" }}
@@ -29,12 +13,25 @@
   {{ end }}
   {{ .Page.Scratch.Set "highcharts_js" 1 }}
 {{ end }}
--->
 
-<script src="http://code.highcharts.com/highcharts.js"></script>
-{{ .Page.Scratch.Set "highcharts_js" 1 }}
-<script src="http://code.highcharts.com/highcharts-more.js"></script>
-{{ .Page.Scratch.Set "highcharts-more_js" 1 }}
+<!-- Load highcharts-more.js -->
+{{ if not (.Page.Scratch.Get "highcharts-more_js") }}
+  {{ if (fileExists "assets/js/highcharts-more.js") }}
+    {{ $script := resources.Get "js/highcharts-more.js" }}
+    {{ if hugo.IsProduction }}
+      {{ $script = $script | minify | fingerprint }}
+      <script type="text/javascript" src="{{ $script.RelPermalink }}" integrity="{{ $script.Data.Integrity }}"></script>
+    {{ else }}
+      <script type="text/javascript" src="{{ $script.RelPermalink }}"></script>
+    {{ end }}
+  {{ else }}
+    <script src="https://code.highcharts.com/highcharts-more.js"></script>
+  {{ end }}
+  {{ .Page.Scratch.Set "highcharts_js" 1 }}
+{{ end }}
+
+<!-- <script src="http://code.highcharts.com/highcharts.js"></script>
+<script src="http://code.highcharts.com/highcharts-more.js"></script> -->
 
 <!-- Place the chart -->
 <div id="{{ .Get "chart" | default "chart" }}" style="min-width: 400px; max-width: 600px; height: 400px; margin: 0 auto"></div>
