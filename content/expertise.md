@@ -6,7 +6,6 @@ comments: false
 images:
 ---
 
-
 {{< highcharts-custom chart="UNIQUE_NAME" height="400" width="600" >}}
 chart: {
 polar: true,
@@ -20,7 +19,6 @@ colorByPoint: true,
 colors: ['#40a3b8', '#40a3b8'],
 title: {
 text: 'Cloud, Automation, Languages, Tooling',
-//x: -80,
 },
 pane: {
 size: '80%',
@@ -72,3 +70,19 @@ exporting: {
 enabled: false,
 },
 {{< /highcharts-custom >}}
+
+
+
+## Certifications
+
+{{< rawhtml >}}
+
+<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="2987673b-8fec-413b-b674-78aa6a73847a" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+
+<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="3bf860fa-ca3f-4bbb-8ed3-e74a8b38d252" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+
+<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="c560d628-237c-43aa-8ce8-2f0c12650fcc" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+
+<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="9ccbc234-e2b4-453d-ab4a-e76e569aa3d8" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+
+{{< /rawhtml >}}
