@@ -119,6 +119,15 @@ disableHugoGeneratorInject = false
     name       = "About"
     url        = "about"
   [[menu.main]]
+    identifier = "expertise"
+    name       = "Expertise"
+    url        = "expertise"    
+  [[menu.main]]
     identifier = "posts"
     name       = "Posts"
     url        = "posts/"
+
+[module]
+  [[module.mounts]]
+    source = "./node_modules/highcharts"
+    target = "assets/js/highcharts"

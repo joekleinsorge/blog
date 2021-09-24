@@ -17,7 +17,7 @@ vRealize Automation (vRA) 8, was the addition of [polyglot scripting](https://co
 great development for the project, I would have much preferred them to implement
 modern JavaScript ([ES6 +](https://www.w3schools.com/js/js_es6.asp)) instead.
 
-As of vRealize Orchestrator 8.4.2, VMware is using a modified ES5 engine. Here
+As of vRealize Orchestrator 8.5, VMware is using a modified ES5 engine. Here
 are some things that work in this implementation.
 
 ```js
