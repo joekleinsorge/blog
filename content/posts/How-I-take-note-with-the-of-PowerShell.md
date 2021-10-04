@@ -8,18 +8,22 @@ tags:
 
 {{< figure src="https://images.unsplash.com/photo-1611079830811-865ff4428d17?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1217&q=80" >}}
 
-A coworker of mine once showed me a really cool python script he used to take notes in vi [https://en.wikipedia.org/wiki/Vi]. It really seemed to simplify and organize how he took notes and at the time I was still trying to figure out a better method than I currently had (OneNote is not fast). I decided to build upon his idea and try to develop it using my preferred tools ( PowerShell and Notepad). Anyways here is what I created and how I use it.
+A coworker of mine once showed me a really cool python script he used to take notes in [vi](https://en.wikipedia.org/wiki/Vi). It really seemed to simplify and organize how he took notes and at the time I was still trying to figure out a better method than I currently had (OneNote is not fast). I decided to build upon his idea and try to develop it using my preferred tools ( PowerShell and Visual Studio Code). Anyways here is what I created and how I use it.
 
 The Code
 For those that want to just read the code themselves or who just want to jump into using it, here's the script:
 
-GitHub - JoeyKleinsorge/notes: My PowerShell script that helps me keep my notes
-organized and allows me to use them more effectively.My PowerShell script that
-helps me keep my notes organized and allows me to use them more effectively.
+{{< rawhtml >}}
+
+<script src="https://gist.github.com/JoeyKleinsorge/f0af451afea2ac0ada2f0f654e4de423.js"></script>
+
+{{< /rawhtml >}}
 
 ## How I use it
 
 I like taking notes but find that unorganized notes can be a bit of a mental burden instead of a useful helper. This system of note-taking is really basic in that most notes are titled by the day they were created. This helps keep them organized in the folder by date.
+
+![Alt text for my gif](/images/my-gif.gif)
 
 I store all my notes in a folder on my OneDrive, this allows me to access them from anywhere and makes sure that I won't lose them if my computer goes caput. In the script, I set the directory parameter to default to this folder so that the script will always create/ search for the notes there unless I specify otherwise.
 

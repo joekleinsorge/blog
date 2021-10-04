@@ -121,7 +121,11 @@ disableHugoGeneratorInject = false
   [[menu.main]]
     identifier = "expertise"
     name       = "Expertise"
-    url        = "expertise"    
+    url        = "expertise"   
+  [[menu.main]]
+    identifier = "curated"
+    name       = "Curated"
+    url        = "curated"        
   [[menu.main]]
     identifier = "posts"
     name       = "Posts"

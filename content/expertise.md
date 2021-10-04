@@ -30,7 +30,7 @@ categories: [
 'Dell MX7k',
 'JavaScript',
 'PowerShell',
-'YAML',
+'Kubernetes',
 'Terraform',
 'Docker',
 'REST',
@@ -54,7 +54,7 @@ pointFormat: '{series.name}: <b>{point.y:,.0f}</b><br/>',
 series: [
 {
 name: 'Experience',
-data: [9,8,8,8,8,7,6,8,7,9],
+data: [9,8,8,8,8,5,6,8,7,5],
 pointPlacement: 'on',
 //fillColor: 'Blue Gray',
 fillOpacity: 0.6,
@@ -70,8 +70,6 @@ exporting: {
 enabled: false,
 },
 {{< /highcharts-custom >}}
-
-
 
 ## Certifications
 
