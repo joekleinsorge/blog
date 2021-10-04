@@ -14,11 +14,7 @@ A coworker of mine once showed me a really cool python script he used to take no
 The Code
 For those that want to just read the code themselves or who just want to jump into using it, here's the script:
 
-{{< rawhtml >}}
-
-<script src="https://gist.github.com/JoeyKleinsorge/f0af451afea2ac0ada2f0f654e4de423.js"></script>
-
-{{< /rawhtml >}}
+{{< gist JoeyKleinsorge f0af451afea2ac0ada2f0f654e4de423 >}}
 
 ## How I use it
 

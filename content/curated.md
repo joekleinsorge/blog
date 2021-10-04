@@ -7,4 +7,6 @@ images:
 
 ## Sharing is caring
 
+WIP
+
 This will be of links to great resources and reads across the world wide web.

@@ -6,7 +6,7 @@ comments: false
 images:
 ---
 
-{{< highcharts-custom chart="UNIQUE_NAME" height="400" width="600" >}}
+{{< highcharts-custom chart="expertiseSpider" height="400" width="600" >}}
 chart: {
 polar: true,
 type: 'area',
