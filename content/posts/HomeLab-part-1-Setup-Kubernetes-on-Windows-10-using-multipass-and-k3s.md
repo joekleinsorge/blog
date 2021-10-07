@@ -88,8 +88,3 @@ lnx03   Ready    <none>                 94s     v1.21.5+k3s1
 ```
 
 5. Install Helm
-
-
-
-
-
