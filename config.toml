@@ -2,24 +2,18 @@ baseURL = 'https://joeykleinsorge.netlify.app/'
 languageCode = 'en-us'
 title = 'Joey Kleinsorge'
 theme = 'my-hello-friend-ng'
-
 PygmentsCodeFences = true
 PygmentsStyle = "monokai"
-
-
 # googleAnalytics = ""
-
 archetypeDir = "archetypes"
 contentDir   = "content"
 dataDir      = "data"
 layoutDir    = "layouts"
 publishDir   = "public"
-
 buildDrafts  = false
 buildFuture  = false
 buildExpired = false
 canonifyURLs = true
-
 enableRobotsTXT = true
 enableGitInfo   = true
 enableEmoji     = true
@@ -52,10 +46,10 @@ disableHugoGeneratorInject = false
   description = "Joey Kleinsorge"
   keywords = "Joey Kleinsorge"
   images = [""]
-  homeSubtitle = "Hope is not a strategy"
-  disableReadOtherPosts = true
+  homeSubtitle = "Avid lover of automation, code that works and coffee."
+  disableReadOtherPosts = false
   enableThemeToggle = true
-  enableSharingButtons = false
+  enableSharingButtons = true
   enableGlobalLanguageMenu = false
   customCSS = []
   customJS  = []
@@ -105,23 +99,21 @@ disableHugoGeneratorInject = false
     url = "https://github.com/JoeyKleinsorge"
 
   [[params.social]]
+    name = "gitlab"
+    url = "https://gitlab.com/joeykleinsorge"
+
+  [[params.social]]
     name = "linkedin"
     url  = "https://www.linkedin.com/in/joeykleinsorge/"
 
 [languages]
   [languages.en]
-    subtitle  = "Code, issues and solutions"
-    weight    = 1
 
 [menu]
   [[menu.main]]
     identifier = "about"
     name       = "About"
     url        = "about"
-  [[menu.main]]
-    identifier = "expertise"
-    name       = "Expertise"
-    url        = "expertise"   
   [[menu.main]]
     identifier = "curated"
     name       = "Curated"

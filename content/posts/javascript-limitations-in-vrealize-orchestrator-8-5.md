@@ -2,13 +2,11 @@
 title: 'Javascript Limitations in vRealize Orchestrator 8.5'
 date: 2021-09-14T21:03:57-04:00
 draft: false
-images:
+cover: 'https://geekflare.com/wp-content/uploads/2018/06/javascript.jpg'
 tags:
   - vRA
   - JavaScript
 ---
-
-{{< figure src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDEwfHxqYXZhc2NyaXB0fGVufDB8fHx8MTYyOTc1MDgyNQ&ixlib=rb-1.2.1&q=80&w=2000">}}
 
 One of the selling points for vRealize Orchestrator is the ability to run
 JavaScript inside of a workflow using \"Scriptable Tasks\". With the release of
