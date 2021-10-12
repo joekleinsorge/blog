@@ -2,7 +2,7 @@
 title: 'Javascript Limitations in vRealize Orchestrator 8.5'
 date: 2021-09-14T21:03:57-04:00
 draft: false
-cover: 'https://geekflare.com/wp-content/uploads/2018/06/javascript.jpg'
+cover: img/vra8-icons.png
 tags:
   - vRA
   - JavaScript
@@ -16,7 +16,7 @@ modern JavaScript ([ES6 +](https://www.w3schools.com/js/js_es6.asp)) instead.
 
 As of vRealize Orchestrator 8.5, VMware is using [ECMAScript 5.1](https://262.ecma-international.org/5.1/) and this comes with quite a few limitations for those who are used to the features of modern JS.
 
-## Work in vRA
+## Things that work in vRO
 
 Create a constant object
 
@@ -136,7 +136,7 @@ var employees = [
 System.log(employees.sort);
 ```
 
-## Things that do not work in vRA 8.5
+## Things that do not work in vRO as of 8.5
 
 Now here are some things that you might expect to work in vRO, but will return
 validation errors.
@@ -144,7 +144,7 @@ validation errors.
 Let
 
 ```javascript
-let x = 10;
+let x = 10; //This one makes sense as scope is already defined
 ```
 
 .includes
