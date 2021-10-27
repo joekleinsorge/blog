@@ -122,6 +122,6 @@ I’m only in the beginning of my career but am actively seeking ways to develop
 
 This is a static website built with Hugo and deployed using Netlify, meaning there isn't anything to track you; no access logs, location information, etc.
 
-**Note:** I do use a [visitor badge](https://visitor-badge.glitch.me/) to track the total views of each post.
+**Note:** I do use a [visitor badge](https://visitor-badge.laobi.icu/) to track the total views of each post.
 
 All of the source code of this website can be found [here](https://github.com/JoeyKleinsorge/JoeyKleinsorge.com). If you find any of my spelling errors, see any mistakes or even have something you would like to add, feel free to make a pull request.
