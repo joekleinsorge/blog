@@ -10,7 +10,7 @@ I currently spend my time as a Cloud Platform Automation Engineer at a [Class 1 
 
 This blog is a way for me to [show my work in public](https://medium.com/low-pass-filter/show-your-work-39e6466c4273), along with give back to the community of bloggers that I've leveraged in the past. Hopefully you find something that helps you out.
 
-## Expertise/ Certifications
+## Expertise
 
 {{< highcharts-custom chart="expertiseSpider" height="400" width="600" >}}
 chart: {
@@ -60,7 +60,7 @@ pointFormat: '{series.name}: <b>{point.y:,.0f}</b><br/>',
 series: [
 {
 name: 'Experience',
-data: [9,8,8,8,8,5,6,8,7,5],
+data: [9,8,8,8,8,5,6,8,8,7],
 pointPlacement: 'on',
 //fillColor: 'Blue Gray',
 fillOpacity: 0.6,
@@ -77,6 +77,8 @@ enabled: false,
 },
 {{< /highcharts-custom >}}
 
+## Certifications
+
 {{< rawhtml >}}
 
 <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="2987673b-8fec-413b-b674-78aa6a73847a" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
@@ -92,6 +94,7 @@ enabled: false,
 ## How to connect with me?
 
 I’m only in the beginning of my career but am actively seeking ways to develop myself professionally. Reach out to me if you want to talk anything tech, mountain biking or home automation.
+
 {{< rawhtml >}}
 
 <div>
@@ -117,7 +120,8 @@ I’m only in the beginning of my career but am actively seeking ways to develop
 
 ## Privacy Policy
 
-This is a static website built with Hugo and deployed using Netlify, meaning there isn't anything to track you; no access logs, location information, etc.  
- **Note:** I do use a [visitor badge](https://visitor-badge.glitch.me/) to track the total views of each post.
+This is a static website built with Hugo and deployed using Netlify, meaning there isn't anything to track you; no access logs, location information, etc.
 
-All of the source code of this website can be found [here](https://github.com/JoeyKleinsorge/JoeyKleinsorge.com). If you see any mistakes or have something you would like to add, make a pull request.
+**Note:** I do use a [visitor badge](https://visitor-badge.glitch.me/) to track the total views of each post.
+
+All of the source code of this website can be found [here](https://github.com/JoeyKleinsorge/JoeyKleinsorge.com). If you find any of my spelling errors, see any mistakes or even have something you would like to add, feel free to make a pull request.

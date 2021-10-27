@@ -4,7 +4,6 @@ title = 'Joey Kleinsorge'
 theme = 'my-hello-friend-ng'
 PygmentsCodeFences = true
 PygmentsStyle = "monokai"
-# googleAnalytics = ""
 archetypeDir = "archetypes"
 contentDir   = "content"
 dataDir      = "data"
@@ -76,7 +75,7 @@ disableHugoGeneratorInject = false
     logoMark     = ">"
     logoText     = "Joey Kleinsorge"
     logoHomeLink = "/"
-    logoCursorColor    = "#729FCF"
+    logoCursorColor    = "#40a3b8"
     logoCursorAnimate  = "1s"
 
   # Commento is more than just a comments widget you can embed — 
