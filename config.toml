@@ -29,7 +29,7 @@ disableHugoGeneratorInject = false
   name = "Joey Kleinsorge"
 
 [blackfriday]
-  hrefTargetBlank = false
+  hrefTargetBlank = true
 
 [taxonomies]
   tag      = "tags"
