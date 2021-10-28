@@ -26,7 +26,7 @@ This website uses [netlify](https:/netlify.com) to automate the build and deploy
 
 The site uses the [hello-friend-ng](https://github.com/rhazdon/hugo-theme-hello-friend-ng) theme.
 
-To use my own fork which I use for slight modifications, run:
+To use my own fork, which I use for slight modifications, run:
 
 ```
 git submodule add https://github.com/JoeyKleinsorge/hugo-theme-hello-friend-ng.git
@@ -36,6 +36,6 @@ And update the `config.toml` to use this theme.
 
 ## CI/CD
 
-Any changes to the `main` branch, will trigger netlify to build and publish the commit.
+Any changes to the `main` branch, will trigger Netlify to build and publish the commit.
 
 The address of the deployed site is: https://JoeyKleinsorge.com/
