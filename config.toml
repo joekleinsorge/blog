@@ -29,7 +29,7 @@ disableHugoGeneratorInject = false
   name = "Joey Kleinsorge"
 
 [blackfriday]
-  hrefTargetBlank = true
+  hrefTargetBlank = false
 
 [taxonomies]
   tag      = "tags"
@@ -77,17 +77,6 @@ disableHugoGeneratorInject = false
     logoHomeLink = "/"
     logoCursorColor    = "#40a3b8"
     logoCursorAnimate  = "1s"
-
-  # Commento is more than just a comments widget you can embed — 
-  # it’s a return to the roots of the internet. 
-  # An internet without the tracking and invasions of privacy. 
-  # An internet that is simple and lightweight. 
-  # An internet that is focused on interesting discussions, not ads. 
-  # A better internet.
-  # Uncomment this to enable Commento.
-  #
-  # [params.commento]
-  #   url = ""
 
   [[params.social]]
     name = "email"

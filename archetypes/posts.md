@@ -2,7 +2,8 @@
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 draft: true
-images:
+toc: false
+cover: 
 tags:
   - untagged
 ---
