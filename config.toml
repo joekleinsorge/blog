@@ -1,4 +1,4 @@
-baseURL = 'https://joeykleinsorge.com/'
+baseURL = 'https://www.joeykleinsorge.com/'
 languageCode = 'en-us'
 title = 'Joey Kleinsorge'
 theme = 'my-hello-friend-ng'
@@ -47,7 +47,7 @@ disableHugoGeneratorInject = false
   images = [""]
   homeSubtitle = "Avid lover of automation, code that works and coffee."
   disableReadOtherPosts = false
-  EnableThemeToggle = true
+  EnableThemeToggle = false
   enableSharingButtons = true
   enableGlobalLanguageMenu = false
   customCSS = []
