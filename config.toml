@@ -57,7 +57,7 @@ disableHugoGeneratorInject = false
 
   [params.footer]
     trademark = true
-    rss = false
+    rss = true
     copyright = false
     author = true
 
@@ -110,7 +110,11 @@ disableHugoGeneratorInject = false
     identifier = "posts"
     name       = "Posts"
     url        = "posts/"
-
+  [[menu.main]]
+    identifier = "now"
+    name       = "Now"
+    url        = "now"
+    
 [module]
   [[module.mounts]]
     source = "./node_modules/highcharts"
