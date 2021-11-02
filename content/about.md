@@ -4,7 +4,7 @@ date: 2021-09-14T19:02:43-04:00
 draft: false
 ---
 
-Hey there, I'm Joey!
+Hey there, I'm Joey [Kleinsorge](http://localhost:1313/kleinsorge)!
 
 I currently spend my time as a Cloud Platform Automation Engineer at a [Class 1 railroad](https://en.wikipedia.org/wiki/Railroad_classes#Class_I) in sunny Florida. I primarily focus on designing and developing my company's hybrid cloud self-service automated solutions.
 
@@ -120,7 +120,7 @@ I’m only in the beginning of my career but am actively seeking ways to develop
 
 ## Privacy Policy
 
-This is a static website built with Hugo and deployed using Netlify, meaning there isn't anything to track you; no access logs, location information, etc.
+This is a static website built with [Hugo](https://gohugo.io/) and deployed using [Netlify](https://www.netlify.com/), meaning there isn't anything to track you; no access logs, location information, etc.
 
 **Note:** I do use a [visitor badge](https://visitor-badge.laobi.icu/) to track the total views of each post.
 
