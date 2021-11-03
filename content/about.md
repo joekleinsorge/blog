@@ -4,7 +4,7 @@ date: 2021-09-14T19:02:43-04:00
 draft: false
 ---
 
-Hey there, I'm Joey [Kleinsorge](http://localhost:1313/kleinsorge)!
+Hey there, I'm Joey [Kleinsorge](https://www.joeykleinsorge.com/kleinsorge)!
 
 I currently spend my time as a Cloud Platform Automation Engineer at a [Class 1 railroad](https://en.wikipedia.org/wiki/Railroad_classes#Class_I) in sunny Florida. I primarily focus on designing and developing my company's hybrid cloud self-service automated solutions.
 
