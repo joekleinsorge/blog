@@ -8,7 +8,7 @@ tags:
   - Notes
 ---
 
-A coworker of mine once showed me a really cool python script he used to take notes in [vi](https://en.wikipedia.org/wiki/Vi). It really seemed to simplify and organize how he took notes and at the time I was still trying to figure out a better method than I currently had (OneNote is not fast). I decided to build upon his idea and try to develop it using my preferred tools ( PowerShell and Visual Studio Code). Anyways here is what I created and how I use it.
+A coworker of mine once showed me a cool python script he used to take notes in [vi](https://en.wikipedia.org/wiki/Vi). It seemed to simplify and organize how he took notes and at the time I was still trying to figure out a better method than I currently had (OneNote is not fast). I decided to build upon his idea and try to develop it using my preferred tools ( PowerShell and Visual Studio Code). Anyways here is what I created and how I use it.
 
 The Code
 For those that want to just read the code themselves or who just want to jump into using it, here's the script:
