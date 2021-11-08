@@ -60,14 +60,19 @@ Take a snapshot now because you wish you had one earlier and you might need one 
 
 ### Make a backup of object.yaml
 
-`cp /data/restorepoint/sys-config/vaconfig/object.yaml ~/`
+```shell
+cp /data/restorepoint/sys-config/vaconfig/object.yaml ~/
+```
 
 ### Delete everything in /home/root/
 
-`cd /home/`  
-`rm -rf root/`
+```shell
+rm -rf /home/root/
+```
 
 ### Delete and create a few soft links
+
+Paste in the whole block
 
 ```shell
 cp -r /root/ /home/root
@@ -82,48 +87,99 @@ rm -rf /metrics && ln -s /home/metrics /metrics
 
 Some of them don't have an output, for those check the if they completed successfully with `echo $?`
 
-- `cd /etc/bootstrap/postupdate.d/`
-- `./02-10-load-images.sh`
-- `./02-disable-var-log-cron.sh`
-- `./03-05-enable-metrics.sh`
-- `./03-10-setup-k8s.sh`
-- `./10-35-fix-named.sh`
-- `./10-disable-tzselect.sh`
-- `./20-relocate-db.sh`
-- `./71-11-remove-pr2709935-crons.sh`
-- `./91-00-remove-config-xl.sh`
+```shell
+ cd /etc/bootstrap/postupdate.d/
+```
+
+```shell
+ ./02-10-load-images.sh
+```
+
+```shell
+  ./02-disable-var-log-cron.sh
+```
+
+```shell
+  ./03-05-enable-metrics.sh
+```
+
+```shell
+  ./03-10-setup-k8s.sh
+```
+
+```shell
+  ./10-35-fix-named.sh
+```
+
+```shell
+  ./10-disable-tzselect.sh
+```
+
+```shell
+  ./20-relocate-db.sh
+```
+
+```shell
+  ./71-11-remove-pr2709935-crons.sh
+```
+
+```shell
+  ./91-00-remove-config-xl.sh
+```
 
 ### Reboot the appliance
 
-`reboot`
+```shell
+reboot
+```
 
 ### After it boots back up, check the status
 
-`vracli vidm`  
-`vracli status first-boot`
+```shell
+vracli vidm
+```
+
+```shell
+vracli status first-boot
+```
 
 ### Apply the object.yaml
 
-`kubectl apply -f /data/restorepoint/sys-config/vaconfig/object.yaml`
+```shell
+kubectl apply -f /data/restorepoint/sys-config/vaconfig/object.yaml
+```
 
 ### Run the deploy script
 
-`/opt/scripts/deploy.sh` Then get a coffee, because this takes around 20+ minutes.
+```shell
+/opt/scripts/deploy.sh
+```
+
+Then get a coffee, because this takes around 20+ minutes.
 
 ### Check the version
 
 If everything worked as expected, you should see 8.5.1.
-`vracli version`
+
+```shell
+vracli version
+```
 
 ### Clean up leftovers so the appliance can be upgraded later on
 
-`cd /var/vmware/prelude/upgrade`  
-`rm -rf /data/restorepoint /var/vmware/prelude/upgrade /var/log/vmware/prelude/upgrade-report-latest*`
+```shell
+cd /var/vmware/prelude/upgrade
+```
+
+```shell
+rm -rf /data/restorepoint /var/vmware/prelude/upgrade /var/log/vmware/prelude/upgrade-report-latest*
+```
 
 ### Check the upgrade status
 
-`cd /`  
-`vracli upgrade status`
+```shell
+vracli upgrade status
+```
 
 ## Conclusion
 
