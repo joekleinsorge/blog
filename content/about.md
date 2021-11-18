@@ -4,13 +4,31 @@ date: 2021-09-14T19:02:43-04:00
 draft: false
 ---
 
-Hey there, I'm Joey [Kleinsorge](https://www.joeykleinsorge.com/kleinsorge)!
+Hey there, as you have already guessed, I'm Joey [Kleinsorge](https://www.joeykleinsorge.com/kleinsorge) and this is my site.
 
-I currently spend my time as a Cloud Platform Automation Engineer at a [Class 1 railroad](https://en.wikipedia.org/wiki/Railroad_classes#Class_I) in sunny Florida. I primarily focus on designing and developing my company's hybrid cloud self-service automated solutions.
+## Why make this website?
 
 This blog is a way for me to [show my work in public](https://medium.com/low-pass-filter/show-your-work-39e6466c4273), along with give back to the community of bloggers that I've leveraged in the past. Hopefully you find something here that helps you out.
 
-## Expertise
+## Occupation and Interests
+
+I currently spend my time as a Cloud Platform Automation Engineer at a [Class 1 railroad](https://en.wikipedia.org/wiki/Railroad_classes#Class_I) in sunny Florida. I primarily focus on designing and developing my company's hybrid cloud self-service automated solutions.
+
+### Certifications
+
+{{< rawhtml >}}
+
+<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="2987673b-8fec-413b-b674-78aa6a73847a" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+
+<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="3bf860fa-ca3f-4bbb-8ed3-e74a8b38d252" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+
+<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="c560d628-237c-43aa-8ce8-2f0c12650fcc" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+
+<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="9ccbc234-e2b4-453d-ab4a-e76e569aa3d8" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+
+{{< /rawhtml >}}
+
+### Proficiencies
 
 {{< highcharts-custom chart="expertiseSpider" height="400" width="600" >}}
 chart: {
@@ -77,20 +95,6 @@ enabled: false,
 },
 {{< /highcharts-custom >}}
 
-## Certifications
-
-{{< rawhtml >}}
-
-<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="2987673b-8fec-413b-b674-78aa6a73847a" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-
-<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="3bf860fa-ca3f-4bbb-8ed3-e74a8b38d252" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-
-<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="c560d628-237c-43aa-8ce8-2f0c12650fcc" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-
-<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="9ccbc234-e2b4-453d-ab4a-e76e569aa3d8" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-
-{{< /rawhtml >}}
-
 ## How to connect with me?
 
 I’m only in the beginning of my career but am actively seeking ways to develop myself professionally. Reach out to me if you want to talk anything tech, mountain biking or home automation.
@@ -126,11 +130,6 @@ This is a static website built with [Hugo](https://gohugo.io/) and deployed usin
 
 All of the source code of this website can be found [here](https://github.com/JoeyKleinsorge/JoeyKleinsorge.com). If you find any of my spelling errors, see any mistakes or even have something you would like to add, feel free to make a pull request.
 
-## Carbon Footprint
+## Disclaimer
 
-{{< rawhtml >}}
-
-<div id="wcb" class="carbonbadge wcb-d"></div>
-<script src="https://unpkg.com/website-carbon-badges@1.1.3/b.min.js" defer></script>
-
-{{< /rawhtml >}}
+This is my personal blog and all views and opinions expressed here are my own and do not reflect any past, present or future employer or client.
