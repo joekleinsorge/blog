@@ -8,7 +8,7 @@ Hey there, I'm Joey [Kleinsorge](https://www.joeykleinsorge.com/kleinsorge)!
 
 I currently spend my time as a Cloud Platform Automation Engineer at a [Class 1 railroad](https://en.wikipedia.org/wiki/Railroad_classes#Class_I) in sunny Florida. I primarily focus on designing and developing my company's hybrid cloud self-service automated solutions.
 
-This blog is a way for me to [show my work in public](https://medium.com/low-pass-filter/show-your-work-39e6466c4273), along with give back to the community of bloggers that I've leveraged in the past. Hopefully you find something that helps you out.
+This blog is a way for me to [show my work in public](https://medium.com/low-pass-filter/show-your-work-39e6466c4273), along with give back to the community of bloggers that I've leveraged in the past. Hopefully you find something here that helps you out.
 
 ## Expertise
 
@@ -125,3 +125,12 @@ This is a static website built with [Hugo](https://gohugo.io/) and deployed usin
 **Note:** I do use a [visitor badge](https://visitor-badge.laobi.icu/) to track the total views of each post.
 
 All of the source code of this website can be found [here](https://github.com/JoeyKleinsorge/JoeyKleinsorge.com). If you find any of my spelling errors, see any mistakes or even have something you would like to add, feel free to make a pull request.
+
+## Carbon Footprint
+
+{{< rawhtml >}}
+
+<div id="wcb" class="carbonbadge wcb-d"></div>
+<script src="https://unpkg.com/website-carbon-badges@1.1.3/b.min.js" defer></script>
+
+{{< /rawhtml >}}

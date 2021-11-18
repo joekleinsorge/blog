@@ -23,18 +23,37 @@ I store all my notes in a folder on my OneDrive, this allows me to access them f
 
 When I just want to take a quick note of something, I can just run the script as-is and it will pop open the daily note in VSC.
 
-> `> Notes.ps1`
+```shell
+> Notes.ps1
+```
 
 Say I want to create a note about a specific topic, however. I  can use the -name parameter to create a note with that name.
 
-> `> Notes.ps1 -name terraform`
+```shell
+> Notes.ps1 -name terraform
+```
 
 I can use that same parameter to open up a note that I specify if it already exists (If I ran the same command again it would open the terraform.txt file).
 
 I can use the -list parameter to list out all the notes I have in the directory.
 
-> `> Notes.ps1 -list`
+```shell
+> Notes.ps1 -list
+Found the following notes:
+09_15_21
+11_11_21
+2021eoyReview
+masterPlan
+vra8
+```
 
 One of my favorite uses of the script is the -search parameter, this will take the string input and do a pattern match against all the text files in the directory and bring back the exact path of the match to the line number as well as the other text on that line of the note.
 
-> `> Notes.ps1 -search AWS`
+```shell
+> Notes.ps1 -search AWS
+Found string in:
+
+C:\Notes\cert_CLF-C01.txt:8:        1.1 Define the AWS Cloud and its value proposition
+C:\Notes\cert_CLF-C01.txt:9:             Define the benefits of the AWS cloud including:
+C:\Notes\cert_CLF-C01.txt:19:             Explain how the AWS cloud allows users to focus on business value
+```

@@ -6,11 +6,11 @@ comments: false
 images:
 ---
 
-- Using Terraform to build out my "[Cloud Lab](https://gitlab.com/joeykleinsorge/recipe-app-api-proxy)" in AWS
+- Using Terraform to build out my "[Cloud Lab](https://gitlab.com/joeykleinsorge/recipe-app-api-proxy)" in AWS and messing around with GitHub Actions
 - Currently reading
   - [The Pragmatic Programmer](https://www.goodreads.com/book/show/45280024-the-pragmatic-programmer)
   - [The Ride of a Lifetime](https://www.goodreads.com/book/show/44525305-the-ride-of-a-lifetime)
-  - [The Moth Presents All These Wonders](https://www.goodreads.com/book/show/30901606-the-moth-presents-all-these-wonders)
+  - [Site Reliability Engineering](https://www.goodreads.com/book/show/27968891-site-reliability-engineering)
 - Waiting patiently for my utterly ridiculous [Cybertruck](https://www.tesla.com/cybertruck) to be built.
 
 ### What is this?
