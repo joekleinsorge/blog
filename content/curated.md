@@ -5,7 +5,7 @@ draft: false
 toc: true
 ---
 
-Sharing is caring, I bookmark a ton of resources that I find useful and will post them with here if I find them exceptionally helpful.
+[Sharing is caring](https://www.youtube.com/watch?v=iXel1Vmvmhw) and throughout my days, I bookmark a ton of resources that I find useful. The below links are resources that I found to be exceptionally helpful to me and that may hopefully be useful to someone else.
 
 **Note:** This is a work in progress and will be continually added to.
 

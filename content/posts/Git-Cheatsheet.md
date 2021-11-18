@@ -8,7 +8,7 @@ tags:
   - git
 ---
 
-This is a reference for all things git, that I have found myself looking up how to do.
+If you are looking for quality content and a generally useful reference please use these ([this](https://education.github.com/git-cheat-sheet-education.pdf) or [this](https://about.gitlab.com/images/press/git-cheat-sheet.pdf)) wonderful guides instead of this page. This post is really more of a reference for myself on situations I've been in and how to fix them.
 
 ## Merging a remote fork from the CLI + VSC
 

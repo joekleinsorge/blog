@@ -93,6 +93,9 @@ disableHugoGeneratorInject = false
   [[params.social]]
     name = "linkedin"
     url  = "https://www.linkedin.com/in/joeykleinsorge/"
+  [[params.social]]
+    name = "goodreads"
+    url  = "https://www.goodreads.com/user/show/137191786-joey"  
 
 [languages]
   [languages.en]

@@ -32,7 +32,7 @@ If both the retry properties are set to true, revertSnapshotNRetryUpgrade proper
 
 If you took (and still have) a snapshot of the appliance, like LCM asks you to do, you can just revert back to it, clean up the log-bundles and be back on your way.
 
-However if for some reason you don't have a backup available, then there is a good deal more steps to take.
+However if for some reason you don't have a backup available, then there are a good deal more steps to take.
 
 ### Clean up the log-bundles and check space
 
