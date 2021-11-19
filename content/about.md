@@ -14,7 +14,7 @@ This blog is a way for me to [show my work in public](https://medium.com/low-pas
 
 I currently spend my time as a Cloud Platform Automation Engineer at a [Class 1 railroad](https://en.wikipedia.org/wiki/Railroad_classes#Class_I) in sunny Florida. I primarily focus on designing and developing my company's hybrid cloud self-service automated solutions.
 
-### Certifications
+### Certifications and Badges
 
 {{< rawhtml >}}
 
@@ -23,6 +23,10 @@ I currently spend my time as a Cloud Platform Automation Engineer at a [Class 1 
 <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="3bf860fa-ca3f-4bbb-8ed3-e74a8b38d252" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
 
 <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="c029cec4-98eb-494b-aee7-34adb2054e33" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+
+<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="a5f9087f-2574-4f56-9636-303a90afed6a" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+
+<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="971fc436-602c-44c1-8a54-542ba4a9b62b" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
 
 <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="c560d628-237c-43aa-8ce8-2f0c12650fcc" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
 
