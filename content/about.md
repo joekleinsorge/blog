@@ -8,13 +8,13 @@ Hey there, as you have already guessed, I'm Joey [Kleinsorge](https://www.joeykl
 
 ## Why make this website?
 
-This blog is a way for me to [show my work in public](https://medium.com/low-pass-filter/show-your-work-39e6466c4273), along with give back to the community of bloggers that I've leveraged in the past. Hopefully you find something here that helps you out.
+This blog is a way for me to [show my work in public](https://medium.com/low-pass-filter/show-your-work-39e6466c4273), along with give back to the community of bloggers that I've leveraged in the past. Hopefully my mistakes and issues I've run into can help you out.
 
-## Occupation and Interests
+## Occupation
 
-I currently spend my time as a Cloud Platform Automation Engineer at a [Class 1 railroad](https://en.wikipedia.org/wiki/Railroad_classes#Class_I) in sunny Florida. I primarily focus on designing and developing my company's hybrid cloud self-service automated solutions.
+Currently a [DevOps](https://www.easyaslinux.com/wp-content/uploads/2019/02/download-715x1024.png) Engineer at a [Class 1 railroad](https://en.wikipedia.org/wiki/Railroad_classes#Class_I).
 
-### Certifications and Badges
+## Certifications and Badges
 
 {{< rawhtml >}}
 
@@ -34,7 +34,10 @@ I currently spend my time as a Cloud Platform Automation Engineer at a [Class 1 
 
 {{< /rawhtml >}}
 
-### Proficiencies
+<!--
+## Proficiencies
+
+
 
 {{< highcharts-custom chart="expertiseSpider" height="400" width="600" >}}
 chart: {
@@ -99,7 +102,7 @@ enabled: false,
 exporting: {
 enabled: false,
 },
-{{< /highcharts-custom >}}
+{{< /highcharts-custom >}} -->
 
 ## How to connect with me?
 

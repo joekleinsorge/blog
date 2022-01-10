@@ -7,6 +7,7 @@ tags:
   - Hugo
   - Highcharts
   - JavaScript
+  - How-To
 ---
 
 After viewing Janak's [expertise](https://janaksingh.com/#about) section, I knew I wanted to add some Highchart graphs to this blog. Janak detailed how he went about doing it in a [post](https://janaksingh.com/blog/hugo-add-highcharts/), but being new to Hugo and still learning how it works, his post left me with more questions.

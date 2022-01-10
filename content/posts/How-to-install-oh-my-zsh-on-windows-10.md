@@ -6,7 +6,9 @@ toc: true
 cover: img/OMZLogo_BnW.png
 tags:
   - zsh
-  - windows terminal
+  - Windows
+  - Terminal
+  - How-To
 ---
 
 ## Why do I want this?
