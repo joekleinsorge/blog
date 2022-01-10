@@ -8,10 +8,10 @@ tags:
   - JavaScript
 ---
 
-One of the selling points for vRealize Orchestrator is the ability to run
+\*[vRA]: vRealize Automation \*[vRO]: vRealize Orchestrator
+One of the selling points for vRO is the ability to run
 JavaScript inside of a workflow using \"Scriptable Tasks\". With the release of
-vRealize Automation (vRA) 8, was the addition of [polyglot scripting](https://code.vmware.com/samples/7325/vro-polyglot-scripts). While this is a
-great development for the project, I would have much preferred them to implement
+vRA 8, was the addition of [polyglot scripting](https://code.vmware.com/samples/7325/vro-polyglot-scripts). While this is a great development for the project, I would have much preferred them to implement
 modern JavaScript ([ES6 +](https://www.w3schools.com/js/js_es6.asp)) instead.
 
 As of vRealize Orchestrator 8.6, VMware is using [ECMAScript 5.1](https://262.ecma-international.org/5.1/) and this comes with quite a few limitations for those who are used to the features of modern JS.

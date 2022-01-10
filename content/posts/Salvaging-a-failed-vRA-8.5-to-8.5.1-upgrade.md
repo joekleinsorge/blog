@@ -6,6 +6,7 @@ toc: true
 cover: img/vra8-icons.png
 tags:
   - vRA
+  - How-To
 ---
 
 ## What happened
