@@ -8,7 +8,7 @@ Hey there, as you have already guessed, I'm Joey [Kleinsorge](https://www.joeykl
 
 ## Why make this website?
 
-This blog is a way for me to [show my work in public](https://medium.com/low-pass-filter/show-your-work-39e6466c4273), along with give back to the community of bloggers that I've leveraged in the past. Hopefully my mistakes and issues I've run into can help you out.
+This blog is a way for me to [show my work in public](https://medium.com/low-pass-filter/show-your-work-39e6466c4273), along with give back to the community of bloggers that I've leveraged in the past. Hopefully my mistakes and the issues I've run into can help you out.
 
 ## Occupation
 
