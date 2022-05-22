@@ -6,12 +6,12 @@ comments: false
 images:
 ---
 
-- Using Terraform to build out my "[Cloud Lab](https://gitlab.com/joeykleinsorge/recipe-app-api-proxy)" in AWS and messing around with GitHub Actions
+- Deploying [Khuedoan's fully automated homelab](https://github.com/khuedoan/homelab) (k3s/ansible/terraform/argoCD/vault/gitops) at home and still messing around with GitHub Actions
 - Currently reading
   - [The Pragmatic Programmer](https://www.goodreads.com/book/show/45280024-the-pragmatic-programmer)
   - [The Ride of a Lifetime](https://www.goodreads.com/book/show/44525305-the-ride-of-a-lifetime)
   - [Site Reliability Engineering](https://www.goodreads.com/book/show/27968891-site-reliability-engineering)
-- Waiting patiently for my utterly ridiculous [Cybertruck](https://www.tesla.com/cybertruck) to be built.
+- Waiting still ~~patiently~~ for my utterly ridiculous [Cybertruck](https://www.tesla.com/cybertruck) 
 
 ### What is this?
 
