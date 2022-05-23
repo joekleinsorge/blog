@@ -14,7 +14,7 @@ This blog is a way for me to [show my work in public](https://medium.com/low-pas
 
 Currently a [DevOps](https://www.easyaslinux.com/wp-content/uploads/2019/02/download-715x1024.png) Engineer at a [Class 1 railroad](https://en.wikipedia.org/wiki/Railroad_classes#Class_I).
 
-## Certifications and Badges
+<!-- ## Certifications and Badges
 
 {{< rawhtml >}}
 
@@ -102,11 +102,11 @@ enabled: false,
 exporting: {
 enabled: false,
 },
-{{< /highcharts-custom >}} -->
+{{< /highcharts-custom >}} --> -->
 
 ## How to connect with me?
 
-I’m only in the beginning of my career but am actively seeking ways to develop myself professionally. Reach out to me if you want to talk anything tech, mountain biking or home automation.
+Feel free to reach out to me if you want to talk anything tech, mountain biking or home automation.
 
 {{< rawhtml >}}
 
