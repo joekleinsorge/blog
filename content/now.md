@@ -10,7 +10,7 @@ images:
 - Currently reading
   - [The Pragmatic Programmer](https://www.goodreads.com/book/show/45280024-the-pragmatic-programmer)
   - [Site Reliability Engineering](https://www.goodreads.com/book/show/27968891-site-reliability-engineering)
-- Waiting still ~~patiently~~ for my utterly ridiculous [Cybertruck](https://www.tesla.com/cybertruck) 
+- Still waiting ~~patiently~~ for my utterly ridiculous [Cybertruck](https://www.tesla.com/cybertruck) 
 
 ### What is this?
 
