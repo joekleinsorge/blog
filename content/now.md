@@ -1,12 +1,13 @@
 ---
-title: 'What am I up to now'
+title: 'What am I up to now?'
 date: 2021-11-01T19:01:57-04:00
 draft: false
 comments: false
 images:
 ---
 
-- Deploying [Khuedoan's fully automated homelab](https://github.com/khuedoan/homelab) (k3s/ansible/terraform/argoCD/vault/gitops) at home and still messing around with GitHub Actions
+- Working on my homelab (bare metal/k3s/ansible/terraform/argoCD/vault/gitops) and still messing around with GitHub Actions
+- Studying for the [GCLD](https://www.giac.org/certifications/cloud-security-essentials-gcld/)
 - Currently reading
   - [The Pragmatic Programmer](https://www.goodreads.com/book/show/45280024-the-pragmatic-programmer)
   - [Site Reliability Engineering](https://www.goodreads.com/book/show/27968891-site-reliability-engineering)
