@@ -44,7 +44,7 @@ disableHugoGeneratorInject = false
   # Metadata 
   description = "Joey Kleinsorge"
   keywords = "Joey Kleinsorge"
-  images = [""]
+  images = ["/img/cover.jpg"]
   homeSubtitle = "Avid lover of automation, code that works and coffee."
   disableReadOtherPosts = false
   EnableThemeToggle = true
@@ -93,9 +93,7 @@ disableHugoGeneratorInject = false
   [[params.social]]
     name = "linkedin"
     url  = "https://www.linkedin.com/in/joeykleinsorge/"
-  [[params.social]]
-    name = "goodreads"
-    url  = "https://www.goodreads.com/user/show/137191786-joey"  
+
 
 [languages]
   [languages.en]
