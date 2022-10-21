@@ -44,7 +44,7 @@ disableHugoGeneratorInject = false
   # Metadata 
   description = "Joey Kleinsorge"
   keywords = "Joey Kleinsorge"
-  images = ["/img/cover.jpg"]
+  images = ["img/cover.jpg"]
   homeSubtitle = "Avid lover of automation, code that works and coffee."
   disableReadOtherPosts = false
   EnableThemeToggle = true
@@ -52,7 +52,7 @@ disableHugoGeneratorInject = false
   enableGlobalLanguageMenu = false
   customCSS = []
   customJS  = []
-  justifyContent = true  # Set "text-align: justify" to .post-content.
+  justifyContent = true
   gitUrl = 'https://github.com/JoeyKleinsorge/JoeyKleinsorge.com/commit/'
 
   [params.footer]
@@ -80,7 +80,7 @@ disableHugoGeneratorInject = false
 
   [[params.social]]
     name = "email"
-    url  = "mailto:josephkleinsorge@gmail.com"
+    url  = "mailto:joey@kleinsorge.dev"
 
   [[params.social]]
     name = "github"
@@ -115,6 +115,10 @@ disableHugoGeneratorInject = false
     identifier = "now"
     name       = "Now"
     url        = "now"
+  [[menu.main]]
+    identifier = "cv"
+    name       = "CV"
+    url        = "cv"    
     
 [module]
   [[module.mounts]]
