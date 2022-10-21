@@ -15,7 +15,7 @@ January 2022 - Current
 - Designed and built Python automation to clean up Artifactory snapshots with AQL and GitHub Actions
 - Built custom internal GitHub Action to send Microsoft Teams notifications with the Actions results and metadata
 
-#### Systems Engineer - Operations Automation
+#### Systems Engineer - Cloud Platform Virtualization & Automation
 
 CSX Technology  
 November 2019 - January 2022
@@ -51,14 +51,14 @@ August 2017 - October 2018
 
 ## Skills
 
-**Languages**:, Python, JavaScript PowerShell, YAML, REST API  
-**Homelab**: Bare Metal K3s GitOps cluster via Ansible and managed by ArgoCD, GitOps Hugo + Netlify webpage  
+**Languages**:, Python, JavaScript PowerShell, Bash, YAML, REST API  
+**Homelab**: Bare Metal K3s GitOps cluster via Ansible and managed by ArgoCD, GitOps Hugo + Netlify website  
 **Certifications**: VMware Certified Professional - Cloud Management and Automation 2021 (VCP-CMA 2021), MCS, and Dell certified Technician (PowerEdge)  
-**Tools**: GitHub Actions, Artifactory, OpenShift, Spinnaker, GitOps, VMware vRealize Automation, Orchestrator, Lifecycle Manager, Jira, Confluence, iDRAC, OpenManage Enterprise, Ansible, AWS, Terraform, Docker, Postman
+**Tools**: GitHub Actions, Kubernetes, ArgoCD, Artifactory, OpenShift, Spinnaker, GitOps, VMware vRealize Automation & Orchestrator, Atlassian Suite, iDRAC, Dell OpenManage Enterprise, Ansible, AWX, AWS, Azure, Terraform, Docker
 
 ## Education
 
-**Bachelor of Science in Information Systems Technology**, minor in Cyber Security  
-Seminole State College, Sanford, FL  
+**Seminole State College of Florida**  
+Bachelor of Science in Information Systems Technology, minor in Cyber Security  
 December 2018  
 3.8 GPA
