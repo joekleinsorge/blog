@@ -1,9 +1,7 @@
 ---
-title: 'Cv'
+title: 'CV'
 date: 2022-10-21T11:51:03-04:00
-draft: true
-comments: false
-images:
+draft: false
 ---
 
 <h1 align="center">Joey Kleinsorge</h1>
