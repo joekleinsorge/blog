@@ -4,14 +4,11 @@ date: 2022-10-21T11:51:03-04:00
 draft: false
 ---
 
-<h1 align="center">Joey Kleinsorge</h1>
-
-<p align="center"> joey@kleinsorge.dev |linkedin.com/in/joeykleinsorge | joeykleinsorge.com | github.com/JoeyKleinsorge </p>
-
 ## Experience
 
-#### Systems Engineer II - DevOps & Pipeline Engineering (CSX Technology)
+#### Systems Engineer II - DevOps & Pipeline Engineering
 
+CSX Technology  
 January 2022 - Current
 
 - Automated majority of the migration process of **700+** developers and x lines of code from Bitbucket to GitHub saving x in OpEx
@@ -19,8 +16,9 @@ January 2022 - Current
 - Designed and built Python automation to clean up Artifactory snapshots with AQL and GitHub Actions
 - Built custom internal GitHub Action to send Microsoft Teams notifications with the Actions results and metadata
 
-#### Systems Engineer - Operations Automation (CSX Technology)
+#### Systems Engineer - Operations Automation
 
+CSX Technology  
 November 2019 - January 2022
 
 - Designed and developed fully automated **IaaS** (infrastructure as a service) using **IaC** (infrastructure as code) and **XaaS** (anything as a service) offerings with custom integrations with; NSX-T, Ansible, Jira, Datadog, Git, and Terraform
@@ -29,16 +27,18 @@ November 2019 - January 2022
 - Led and trained 6 Senior Systems Engineers on developing JavaScript workflows, actions and API integrations
 - Built a Power Automate function that returns Server or VM information in a message in a Microsoft Teams channel
 
-#### Systems Engineer - Cloud Platform Infrastructure (CSX Technology)
+#### Systems Engineer - Cloud Platform Infrastructure
 
+CSX Technology  
 October 2018 - November 2019
 
 - Managed and configured the compute for **4** large-scale enterprise Data Centers across **3** states and **6** environments
 - Reduced operating expenses by **$800k** annually by leading the infrastructure design, migration plan, and execution of relocating and consolidating two legacy data centers
 - Developed automated daily reports on business requirements including technical server utilization and reliability metrics
 
-#### Software Developer - Infrastructure (CSX Technology)
+#### Software Developer - Infrastructure
 
+CSX Technology  
 August 2017 - October 2018
 
 - Recovered **$300K** by identifying and selling unused or underutilized hardware assets
@@ -54,12 +54,12 @@ August 2017 - October 2018
 
 **Languages**:, Python, JavaScript PowerShell, YAML, REST API  
 **Homelab**: Bare Metal K3s GitOps cluster via Ansible and managed by ArgoCD, GitOps Hugo + Netlify webpage  
-**Certifications**: VMware Certified Professional - Cloud Management and Automation 2021 (VCP-CMA 2021), MCS, and Dell certified Technician (PowerEdge)
-**Tools**: GitHub Actions, Artifactory, OpenShift, Spinnaker, GitOps, VMware vRealize Automation, Orchestrator, Lifecycle Manager, Jira, Confluence, iDRAC, OpenManage Enterprise, Ansible, AWS, Terraform, Docker, Postman  
+**Certifications**: VMware Certified Professional - Cloud Management and Automation 2021 (VCP-CMA 2021), MCS, and Dell certified Technician (PowerEdge)  
+**Tools**: GitHub Actions, Artifactory, OpenShift, Spinnaker, GitOps, VMware vRealize Automation, Orchestrator, Lifecycle Manager, Jira, Confluence, iDRAC, OpenManage Enterprise, Ansible, AWS, Terraform, Docker, Postman
 
 ## Education
 
 **Bachelor of Science in Information Systems Technology**, minor in Cyber Security  
-Seminole State College, Sanford, FL 3.8 GPA  
+Seminole State College, Sanford, FL  
 December 2018  
-
+3.8 GPA
