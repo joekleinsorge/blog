@@ -11,7 +11,6 @@ draft: false
 CSX Technology  
 January 2022 - Current
 
-- Automated majority of the migration process of **700+** developers and x lines of code from Bitbucket to GitHub saving x in OpEx
 - Configured and setup Autoscaling Self-Hosted Ephemeral Container GitHub Runners with DinD in OpenShift and OKD
 - Designed and built Python automation to clean up Artifactory snapshots with AQL and GitHub Actions
 - Built custom internal GitHub Action to send Microsoft Teams notifications with the Actions results and metadata
