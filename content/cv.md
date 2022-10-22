@@ -58,7 +58,7 @@ August 2017 - October 2018
 
 ## Education
 
-### Seminole State College of Florida
+#### Seminole State College of Florida
 
 **Bachelor of Science in Information Systems Technology**, minor in Cyber Security  
 December 2018  
