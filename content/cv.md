@@ -41,7 +41,7 @@ CSX Technology
 August 2017 - October 2018
 
 - Recovered **$300K** by identifying and selling unused or underutilized hardware assets
-- Reduced deployment time of data center infrastructure by **40%** using source controlled configuration files and REDFISH APIs to automate the configuration of bare-metal servers and Dell PowerEdge MX Blades
+- Reduced deployment time of data center infrastructure by **40%** and increase reliability using source controlled configuration files and REDFISH APIs to automate the configuration of bare-metal servers and Dell PowerEdge MX Blades
 
 ## Leadership and Awards
 
@@ -58,7 +58,8 @@ August 2017 - October 2018
 
 ## Education
 
-**Seminole State College of Florida**  
-Bachelor of Science in Information Systems Technology, minor in Cyber Security  
+### Seminole State College of Florida
+
+**Bachelor of Science in Information Systems Technology**, minor in Cyber Security  
 December 2018  
 3.8 GPA
