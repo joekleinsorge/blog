@@ -44,7 +44,7 @@ disableHugoGeneratorInject = false
   # Metadata 
   description = "Joey Kleinsorge"
   keywords = "Joey Kleinsorge"
-  images = [img/notes.webp]
+  images = ""
   homeSubtitle = "Avid lover of automation, code that works and coffee."
   disableReadOtherPosts = false
   EnableThemeToggle = true
