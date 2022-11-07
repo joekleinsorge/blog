@@ -3,7 +3,6 @@ publish = "public"
 command = "hugo --gc --minify"
 
 [[plugins]]
-  package = "netlify-plugin-submit-sitemap"
 
 [context.production.environment]
 HUGO_VERSION = "0.88.1"
