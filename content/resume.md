@@ -1,5 +1,5 @@
 ---
-title: 'CV'
+title: 'Resume'
 date: 2022-10-21T11:51:03-04:00
 draft: false
 ---
@@ -11,9 +11,13 @@ draft: false
 CSX Technology  
 January 2022 - Current
 
-- Configured and setup Autoscaling Self-Hosted Ephemeral Container GitHub Runners with DinD in OpenShift and OKD
-- Designed and built Python automation to clean up Artifactory snapshots with AQL and GitHub Actions
-- Built custom internal GitHub Action to send Microsoft Teams notifications with the Actions results and metadata
+- Automated majority of migration process for 700+ developers from Bitbucket to GitHub saving thousands of man hours using GitHub Actions, Python, APIs, GraphQL and Bash
+- Configured and set up Autoscaling Self-Hosted Ephemeral Container GitHub Runners with DinD in OpenShift and OKD
+- Built custom internal GitHub Action to send Microsoft Teams notifications with the workflow results and metadata
+- Built Terraform Cloud GitHub Action workflows and templated repos to enhance developer autonomy
+- Designed and built automation to perform Artifactory maintenance with Python, AQL and GitHub Actions
+- Configured Datadog monitoring and dashboards of Jenkins, Spinnaker and Artifactory deployments reducing on-call strain and resulting in shorter mean time to resolve
+- Created automation for leadership team that sent license counts for Atlassian Suite/ GitHub/ Vault to Microsoft Teams
 
 #### Systems Engineer - Cloud Platform Virtualization & Automation
 

@@ -17,7 +17,7 @@ enableRobotsTXT = true
 enableGitInfo   = true
 enableEmoji     = true
 enableMissingTranslationPlaceholders = false
-disableRSS     = true
+disableRSS     = false
 disableSitemap = false
 disable404     = false
 disableHugoGeneratorInject = false
@@ -44,7 +44,7 @@ disableHugoGeneratorInject = false
   # Metadata 
   description = "Joey Kleinsorge"
   keywords = "Joey Kleinsorge"
-  images = ["img/cover.jpg"]
+  images = [img/notes.webp]
   homeSubtitle = "Avid lover of automation, code that works and coffee."
   disableReadOtherPosts = false
   EnableThemeToggle = true
@@ -115,10 +115,6 @@ disableHugoGeneratorInject = false
     identifier = "now"
     name       = "Now"
     url        = "now"
-  [[menu.main]]
-    identifier = "cv"
-    name       = "CV"
-    url        = "cv"    
     
 [module]
   [[module.mounts]]
