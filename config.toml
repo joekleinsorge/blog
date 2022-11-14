@@ -1,4 +1,4 @@
-baseURL = 'https://www.blog.kleinsorge.dev/'
+baseURL = 'https://blog.kleinsorge.dev/'
 languageCode = 'en-us'
 title = 'Joe Kleinsorge'
 theme = 'my-hello-friend-ng'
