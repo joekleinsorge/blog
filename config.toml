@@ -1,6 +1,6 @@
-baseURL = 'https://www.joeykleinsorge.com/'
+baseURL = 'https://www.blog.kleinsorge.dev/'
 languageCode = 'en-us'
-title = 'Joey Kleinsorge'
+title = 'Joe Kleinsorge'
 theme = 'my-hello-friend-ng'
 PygmentsCodeFences = true
 PygmentsStyle = "monokai"
@@ -26,7 +26,7 @@ disableHugoGeneratorInject = false
   posts = "/posts/:year/:month/:title/"
 
 [author]
-  name = "Joey Kleinsorge"
+  name = "Joe Kleinsorge"
 
 [blackfriday]
   hrefTargetBlank = true
@@ -42,8 +42,8 @@ disableHugoGeneratorInject = false
   dateformNumTime = "2006-01-02"
 
   # Metadata 
-  description = "Joey Kleinsorge"
-  keywords = "Joey Kleinsorge"
+  description = "Joe Kleinsorge"
+  keywords = "Joe Kleinsorge"
   images = ""
   homeSubtitle = "Avid lover of automation, code that works and coffee."
   disableReadOtherPosts = false
@@ -53,7 +53,7 @@ disableHugoGeneratorInject = false
   customCSS = []
   customJS  = []
   justifyContent = true
-  gitUrl = 'https://github.com/JoeyKleinsorge/JoeyKleinsorge.com/commit/'
+  gitUrl = 'https://github.com/JoeyKleinsorge/blog/commit/'
 
   [params.footer]
     trademark = true
@@ -73,14 +73,14 @@ disableHugoGeneratorInject = false
 
   [params.logo]
     logoMark     = ">"
-    logoText     = "Joey Kleinsorge"
+    logoText     = "Joe Kleinsorge"
     logoHomeLink = "/"
     logoCursorColor    = "#40a3b8"
     logoCursorAnimate  = "1s"
 
   [[params.social]]
     name = "email"
-    url  = "mailto:joey@kleinsorge.dev"
+    url  = "mailto:joe@kleinsorge.dev"
 
   [[params.social]]
     name = "github"

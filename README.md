@@ -1,18 +1,19 @@
-# JoeyKleinsorge.com
+# blog.kleinsorge.dev
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/9d9f896a-16b7-42f9-b874-d2493b10be37/deploy-status)](https://app.netlify.com/sites/confident-ride-4e3bfb/deploys)
 
-Code, articles and utilities for the [JoeyKleinsorge.com](https://JoeyKleinsorge.com) website.
+Code, articles and utilities for my [blog](https://blog.kleinsorge.dev).
 
-- [Introduction](#introduction)
-- [Hugo](#hugo)
-- [Netlify](#netlify)
-- [Theming](#theming)
-- [CI/CD](#cicd)
+- [blog.kleinsorge.dev](#blogkleinsorgedev)
+  - [Introduction](#introduction)
+  - [Hugo](#hugo)
+  - [Netlify](#netlify)
+  - [Theming](#theming)
+  - [CI/CD](#cicd)
 
 ## Introduction
 
-This is the code for the [JoeyKleinsorge.com](https://JoeyKleinsorge.com) website. It is a static site build from a repository hosted at [github.com/JoeyKleinsorge/JoeyKleinsorge.com](https://github.com/JoeyKleinsorge/JoeyKleinsorge.com) generated with [Hugo](https://gohugo.io/) and [netlify](https://www.netlify.com).
+This is the code for my [blog](https://blog.kleinsorge.dev). It is a static site build from a this repo, generated with [Hugo](https://gohugo.io/) and [netlify](https://www.netlify.com).
 
 ## Hugo
 
@@ -37,5 +38,3 @@ And update the `config.toml` to use this theme.
 ## CI/CD
 
 Any changes to the `main` branch, will trigger Netlify to build and publish the commit.
-
-The address of the deployed site is: https://JoeyKleinsorge.com/
