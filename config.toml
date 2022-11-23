@@ -53,7 +53,7 @@ disableHugoGeneratorInject = false
   customCSS = []
   customJS  = []
   justifyContent = true
-  gitUrl = 'https://github.com/JoeyKleinsorge/blog/commit/'
+  gitUrl = 'https://github.com/JoeKleinsorge/blog/commit/'
 
   [params.footer]
     trademark = true
@@ -84,7 +84,7 @@ disableHugoGeneratorInject = false
 
   [[params.social]]
     name = "github"
-    url = "https://github.com/JoeyKleinsorge"
+    url = "https://github.com/JoeKleinsorge"
 
   [[params.social]]
     name = "gitlab"
@@ -92,7 +92,7 @@ disableHugoGeneratorInject = false
 
   [[params.social]]
     name = "linkedin"
-    url  = "https://www.linkedin.com/in/joeykleinsorge/"
+    url  = "https://www.linkedin.com/in/joekleinsorge/"
 
 
 [languages]
