@@ -10,7 +10,7 @@ Hey there, as you have already guessed, I'm Joe [Kleinsorge](https://www.joeykle
 
 ### Occupation
 
-I started out racking and stacking servers in the data center, then began automating the deployment and management of those servers and fell in love with it.I then moved into virtualization and IT Operations automation for awhile. Eventually falling into the world of [DevOps](https://www.easyaslinux.com/wp-content/uploads/2019/02/download-715x1024.png) and have been there since.
+I started out racking and stacking servers in the data center, then began automating the deployment and management of those servers and fell in love with it. I then moved into virtualization and IT Operations automation for awhile. Eventually falling into the world of [DevOps](https://www.easyaslinux.com/wp-content/uploads/2019/02/download-715x1024.png) and have been there since.
 
 ### How to connect with me?
 
