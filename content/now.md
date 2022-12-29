@@ -6,12 +6,12 @@ comments: false
 images:
 ---
 
-- Working on my homelab (bare metal/k3s/ansible/terraform/argoCD/vault/gitops) and still messing around with GitHub Actions
-- Studying for the [GCLD](https://www.giac.org/certifications/cloud-security-essentials-gcld/)
+- Working on my homelab (bare metal/k3s/ansible/terraform/argoCD/vault/gitops)
+- Starting to play with [Go](https://github.com/JoeKleinsorge/sonos-spotify-shuffle)
 - Currently reading
-  - [The Pragmatic Programmer](https://www.goodreads.com/book/show/45280024-the-pragmatic-programmer)
-  - [Site Reliability Engineering](https://www.goodreads.com/book/show/27968891-site-reliability-engineering)
-- Still waiting ~~patiently~~ for my utterly ridiculous [Cybertruck](https://www.tesla.com/cybertruck) 
+  - [Kubernetes in Action](https://www.goodreads.com/book/show/41928596-kubernetes-in-action)
+  - [Passionate Programmer](https://www.goodreads.com/book/show/102846.Passionate_Programmer)
+- Still waiting ~~patiently~~ for my utterly ridiculous [Cybertruck](https://www.tesla.com/cybertruck)
 
 ### What is this?
 
