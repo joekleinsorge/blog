@@ -6,9 +6,9 @@ draft: false
 
 ## Experience
 
-#### Systems Engineer II - DevOps & Pipeline Engineering
+#### **Systems Engineer II - DevOps & Pipeline Engineering**
 
-CSX Technology  
+CSX Technology
 January 2022 - Current
 
 - Automated majority of migration process for 700+ developers from Bitbucket to GitHub saving thousands of man hours using GitHub Actions, Python, APIs, GraphQL and Bash
@@ -19,9 +19,9 @@ January 2022 - Current
 - Configured Datadog monitoring and dashboards of Jenkins, Spinnaker and Artifactory deployments reducing on-call strain and resulting in shorter mean time to resolve
 - Created automation for leadership team that sent license counts for Atlassian Suite/ GitHub/ Vault to Microsoft Teams
 
-#### Systems Engineer - Cloud Platform Virtualization & Automation
+#### **Systems Engineer - Cloud Platform Virtualization & Automation**
 
-CSX Technology  
+CSX Technology
 November 2019 - January 2022
 
 - Designed and developed fully automated **IaaS** (infrastructure as a service) using **IaC** (infrastructure as code) and **XaaS** (anything as a service) offerings with custom integrations with; NSX-T, Ansible, Jira, Datadog, Git, and Terraform
@@ -30,18 +30,18 @@ November 2019 - January 2022
 - Led and trained 6 Senior Systems Engineers on developing JavaScript workflows, actions and API integrations
 - Built a Power Automate function that returns Server or VM information in a message in a Microsoft Teams channel
 
-#### Systems Engineer - Cloud Platform Infrastructure
+#### **Systems Engineer - Cloud Platform Infrastructure**
 
-CSX Technology  
+CSX Technology
 October 2018 - November 2019
 
 - Managed and configured the compute for **4** large-scale enterprise Data Centers across **3** states and **6** environments
 - Reduced operating expenses by **$800k** annually by leading the infrastructure design, migration plan, and execution of relocating and consolidating two legacy data centers
 - Developed automated daily reports on business requirements including technical server utilization and reliability metrics
 
-#### Software Developer - Infrastructure
+#### **Software Developer - Infrastructure**
 
-CSX Technology  
+CSX Technology
 August 2017 - October 2018
 
 - Recovered **$300K** by identifying and selling unused or underutilized hardware assets
@@ -55,15 +55,15 @@ August 2017 - October 2018
 
 ## Skills
 
-**Languages**:, Python, JavaScript PowerShell, Bash, YAML, REST API  
-**Homelab**: Bare Metal K3s GitOps cluster via Ansible and managed by ArgoCD, GitOps Hugo + Netlify website  
-**Certifications**: VMware Certified Professional - Cloud Management and Automation 2021 (VCP-CMA 2021), MCS, and Dell certified Technician (PowerEdge)  
+**Languages**:, Python, JavaScript PowerShell, Bash, YAML, REST API
+**Homelab**: Bare Metal K3s GitOps cluster via Ansible and managed by ArgoCD, GitOps Hugo + Netlify website
+**Certifications**: VMware Certified Professional - Cloud Management and Automation 2021 (VCP-CMA 2021), MCS, and Dell certified Technician (PowerEdge)
 **Tools**: GitHub Actions, Kubernetes, ArgoCD, Artifactory, OpenShift, Spinnaker, GitOps, VMware vRealize Automation & Orchestrator, Atlassian Suite, iDRAC, Dell OpenManage Enterprise, Ansible, AWX, AWS, Azure, Terraform, Docker
 
 ## Education
 
 #### Seminole State College of Florida
 
-**Bachelor of Science in Information Systems Technology**, minor in Cyber Security  
-December 2018  
+**Bachelor of Science in Information Systems Technology**, minor in Cyber Security
+December 2018
 3.8 GPA

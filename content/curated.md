@@ -5,40 +5,40 @@ draft: false
 toc: true
 ---
 
-[Sharing is caring](https://www.youtube.com/watch?v=iXel1Vmvmhw) and throughout my days, I bookmark a ton of resources that I find useful. The below links are resources that I found to be exceptionally helpful to me and that may hopefully be useful to someone else.
+Sharing is caring and throughout my days, I bookmark a ton of resources that I find useful. The below links are resources that I found to be exceptionally helpful to me and that may hopefully be useful to someone else.
 
 **Note:** This is a work in progress and will be continually added to.
 
 ## DevOps
 
-- https://awsdevops.io/
-- https://digital.ai/periodic-table-of-devops-tools
-- https://cloud.google.com/architecture/managing-infrastructure-as-code-with-terraform-jenkins-and-gitops
-- https://www.udemy.com/course/devops-deployment-automation-terraform-aws-docker/
+- <https://awsdevops.io/>
+- <https://digital.ai/periodic-table-of-devops-tools>
+- <https://cloud.google.com/architecture/managing-infrastructure-as-code-with-terraform-jenkins-and-gitops>
+- <https://www.udemy.com/course/devops-deployment-automation-terraform-aws-docker/>
 
 ## Unix
 
-- https://seankross.com/the-unix-workbench/index.html
-- https://vim-adventures.com/
+- <https://seankross.com/the-unix-workbench/index.html>
+- <https://vim-adventures.com/>
 
 ## SRE
 
-- https://sre.google/sre-book/table-of-contents/
-- https://sre.google/workbook/table-of-contents/
-- https://github.com/dastergon/awesome-sre
-- https://github.com/awesome-foss/awesome-sysadmin
-- https://github.com/upgundecha/awesome-engineering
+- <https://sre.google/sre-book/table-of-contents/>
+- <https://sre.google/workbook/table-of-contents/>
+- <https://github.com/dastergon/awesome-sre>
+- <https://github.com/awesome-foss/awesome-sysadmin>
+- <https://github.com/upgundecha/awesome-engineering>
 
 ## Kubernetes
 
-- https://github.com/run-x/awesome-kubernetes
-- https://gruntwork.io/guides/kubernetes/how-to-deploy-production-grade-kubernetes-cluster-aws/#vpc-configuration
+- <https://github.com/run-x/awesome-kubernetes>
+- <https://gruntwork.io/guides/kubernetes/how-to-deploy-production-grade-kubernetes-cluster-aws/#vpc-configuration>
 
 ## Home Lab
 
-- https://openhomelab.org/index.php/Main_Page
-- https://github.com/awesome-selfhosted/awesome-selfhosted
+- <https://openhomelab.org/index.php/Main_Page>
+- <https://github.com/awesome-selfhosted/awesome-selfhosted>
 
 ## Troubleshooting
 
-- http://www.catb.org/esr/faqs/smart-questions.html
+- <http://www.catb.org/esr/faqs/smart-questions.html>
