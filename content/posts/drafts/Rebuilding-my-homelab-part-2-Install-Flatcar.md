@@ -3,7 +3,7 @@ title: "Rebuilding My Homelab Part 2 - Install Flatcar"
 date: 2022-12-11T21:49:36-05:00
 draft: true
 toc: true
-cover: 
+cover:
 tags:
   - homelab
 ---
