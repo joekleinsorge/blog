@@ -9,6 +9,9 @@ tags:
   - How-To
 ---
 
+> **_NOTE:_**
+> I now use dendron for my notes, you can learn more about it [here](https://www.dendron.so/)
+
 A coworker of mine once showed me a cool python script he used to take notes in [vi](https://en.wikipedia.org/wiki/Vi). It seemed to simplify and organize how he took notes and at the time I was still trying to figure out a better method than I currently had (OneNote is not fast). I decided to build upon his idea and try to develop it using my preferred tools ( PowerShell and Visual Studio Code). Anyways here is what I created and how I use it.
 
 The Code
