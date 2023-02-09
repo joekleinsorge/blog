@@ -15,11 +15,11 @@ For example, I may want to run a workflow on my `development` branch that uses a
 
 ## How to do it
 
-As of right now, the easiest way to do this is to use built-in  [`GITHUB.REF_NAME`](https://docs.github.com/en/actions/learn-github-actions/variables#default-environment-variables) environment variable to set the `environment` key in the workflow file.
+As of right now, the easiest way to do this is using the built-in  [`GITHUB.REF_NAME`](https://docs.github.com/en/actions/learn-github-actions/variables#default-environment-variables) environment variable to set the `environment` key in the workflow file.
 
 This key allows you to specify the environment that the workflow will run in. This is useful for things like setting environment variables and secrets for the workflow.
 
-{{< gist JoeKleinsorge 58a1c953207f4fd98d77fdfc8401935f >}}
+<!-- {{< gist JoeKleinsorge 58a1c953207f4fd98d77fdfc8401935f >}} -->
 
 ```yaml
 name: Using the Branch Name to select Environment
