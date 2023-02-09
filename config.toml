@@ -41,7 +41,7 @@ disableHugoGeneratorInject = false
   dateformNum     = "2006-01-02"
   dateformNumTime = "2006-01-02"
 
-  # Metadata 
+  # Metadata
   description = "Joe Kleinsorge"
   keywords = "Joe Kleinsorge"
   images = ""
@@ -62,9 +62,7 @@ disableHugoGeneratorInject = false
     author = true
 
     topText = []
-    bottomText = [
-      "Powered by <a href=\"http://gohugo.io\">Hugo</a>"
-    ]
+    bottomText = []
 
   [params.favicon.color]
     mask = "#1b1c1d"
@@ -106,7 +104,7 @@ disableHugoGeneratorInject = false
   [[menu.main]]
     identifier = "curated"
     name       = "Curated"
-    url        = "curated"        
+    url        = "curated"
   [[menu.main]]
     identifier = "posts"
     name       = "Posts"
@@ -115,7 +113,7 @@ disableHugoGeneratorInject = false
     identifier = "now"
     name       = "Now"
     url        = "now"
-    
+
 [module]
   [[module.mounts]]
     source = "./node_modules/highcharts"
