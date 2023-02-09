@@ -1,6 +1,6 @@
 # blog.kleinsorge.dev
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/9d9f896a-16b7-42f9-b874-d2493b10be37/deploy-status)](https://app.netlify.com/sites/confident-ride-4e3bfb/deploys) [![Lighthouse Check](https://github.com/JoeyKleinsorge/blog/actions/workflows/lighthouse_check.yml/badge.svg?branch=main)](https://github.com/JoeyKleinsorge/blog/actions/workflows/lighthouse_check.yml)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/9d9f896a-16b7-42f9-b874-d2493b10be37/deploy-status)](https://app.netlify.com/sites/joekleinsorge/deploys) [![Lighthouse Check](https://github.com/JoeyKleinsorge/blog/actions/workflows/lighthouse_check.yml/badge.svg?branch=main)](https://github.com/JoeyKleinsorge/blog/actions/workflows/lighthouse_check.yml)
 
 Code, articles and utilities for my [blog](https://blog.kleinsorge.dev).
 
