@@ -1,7 +1,7 @@
 ---
 title: "Choose Repo Environment From Branch in GitHub Workflow"
 date: 2023-02-09T09:13:21-05:00
-draft: true
+draft: false
 toc: false
 cover:
 tags:
