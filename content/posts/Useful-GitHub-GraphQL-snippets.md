@@ -19,7 +19,7 @@ I've been building a lot of GitHub automation recently and I've found myself usi
 
 This query will return a list of all repositories in an organization. It will return the name, description, and URL of each repository along with pagination information.
 
-```json
+```jsonŒ
 query {
 	organization(login: "my-org") {
 		repositories(first: 100) {
@@ -41,7 +41,7 @@ query {
 
 This query will return the next 100 repositories in an organization. It will return the name, description, and URL of each repository along with pagination information. Replace `$endCursor` with the value of `endCursor` from the previous query.
 
-```json
+```jsonŒ
 query {
 	organization(login: "my-org") {
 		repositories(first: 100, after: $endCursor) {
@@ -63,7 +63,7 @@ query {
 
 This query will return a list of the first 100 repositories in an organization that have a specific topic. It will return the name, description, and URL of each repository along with pagination information.
 
-```json
+```jsonŒ
 query {
 	organization(login: "my-org") {
 		repositories(first: 100, query: "topic:my-topic") {
@@ -81,7 +81,7 @@ query {
 }
 ```
 
-```json
+```jsonŒ
 query getExistingRepoBranches{
   organization(login: "my-org") {
     repository(name: "my-repo") {
@@ -101,7 +101,7 @@ query getExistingRepoBranches{
 
 ### Teams
 
-```json
+```jsonŒ
 query getTeam {
 	organization(login: "my-org") {
 		team(slug: "my-team") {
@@ -111,7 +111,7 @@ query getTeam {
 }
 ```
 
-```json
+```jsonŒ
 query getTeams {
 	organization(login: "my-org") {
 		teams(first: 10) {
@@ -130,7 +130,7 @@ query getTeams {
 }
 ```
 
-```json
+```jsonŒ
 query get_team_repos {
 	organization(login: "my-org") {
 		team(slug: "my-team") {
@@ -152,7 +152,7 @@ query get_team_repos {
 
 ### Org
 
-```json
+```jsonŒ
 query get_IP_allow_list {
 	organization(login: "my-org") {
 		ipAllowListEntries(first: 100) {
@@ -174,7 +174,7 @@ query get_IP_allow_list {
 
 ### Enterprise
 
-```json
+```jsonŒ
 query getStats {
 	enterprise(slug: "my-enterprise") {
 		billingInfo {
@@ -198,7 +198,7 @@ query getStats {
 
 ### Repos
 
-```json
+```jsonŒ
 mutation change_repo_settings {
 	updateRepository(
 		input: {
@@ -214,7 +214,7 @@ mutation change_repo_settings {
 }
 ```
 
-```json
+```jsonŒ
 mutation create_branch_protection_rule {
 	createBranchProtectionRule(
 		input: {
@@ -231,7 +231,7 @@ mutation create_branch_protection_rule {
 }
 ```
 
-```json
+```jsonŒ
 mutation update_branch_protection_rule {
 	updateBranchProtectionRule(
 		input: {
@@ -255,7 +255,7 @@ mutation update_branch_protection_rule {
 }
 ```
 
-```json
+```jsonŒ
 mutation set_topic {
 	updateTopics(input: { repositoryId: "my-repo-id", topicNames: "my-topic" }) {
 		clientMutationId
@@ -265,7 +265,7 @@ mutation set_topic {
 
 ### Organizations
 
-```json
+```jsonŒ
 mutation add_ip_to_list {
 	createIpAllowListEntry(
 		input: {

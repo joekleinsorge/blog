@@ -9,7 +9,7 @@ tags:
   - actions
 ---
 
-An issue I've run into a few times is that I want to run a GitHub Action workflow on a branch, but I want to use different environment variables and secrets for that branch than I do for the default branch.
+An issue I've run into a few times recently, is that I want to run a GitHub Action workflow on a branch, but I want to use different environment variables and secrets for that branch than I do for the default branch.
 
 For example, I may want to run a workflow on my `development` branch that uses a different go version and token than the `production` branch.
 

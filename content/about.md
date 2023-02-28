@@ -6,7 +6,7 @@ draft: false
 
 ## Me
 
-Hey there, as you have already guessed, I'm Joe [Kleinsorge](https://www.joeykleinsorge.com/kleinsorge) and this is my site. I’m happiest when I am working with passionate and principled people on things that matter.
+Hey there, as you have already guessed, I'm Joe and this is my site. I’m happiest when I am working with passionate and principled people on things that matter.
 
 ### Occupation
 
