@@ -30,7 +30,7 @@ The site uses the [hello-friend-ng](https://github.com/rhazdon/hugo-theme-hello-
 To use my own fork, which I use for slight modifications, run:
 
 ```
-git submodule add https://github.com/JoeyKleinsorge/hugo-theme-hello-friend-ng.git
+git submodule add https://github.com/JoeKleinsorge/hugo-theme-hello-friend-ng.git
 ```
 
 And update the `config.toml` to use this theme.
