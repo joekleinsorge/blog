@@ -19,7 +19,7 @@ I've been building a lot of GitHub automation recently and I've found myself usi
 
 This query will return a list of all repositories in an organization. It will return the name, description, and URL of each repository along with pagination information.
 
-```jsonŒ
+```json
 query {
 	organization(login: "my-org") {
 		repositories(first: 100) {
@@ -41,7 +41,7 @@ query {
 
 This query will return the next 100 repositories in an organization. It will return the name, description, and URL of each repository along with pagination information. Replace `$endCursor` with the value of `endCursor` from the previous query.
 
-```jsonŒ
+```json
 query {
 	organization(login: "my-org") {
 		repositories(first: 100, after: $endCursor) {
@@ -63,7 +63,7 @@ query {
 
 This query will return a list of the first 100 repositories in an organization that have a specific topic. It will return the name, description, and URL of each repository along with pagination information.
 
-```jsonŒ
+```json
 query {
 	organization(login: "my-org") {
 		repositories(first: 100, query: "topic:my-topic") {
@@ -81,7 +81,9 @@ query {
 }
 ```
 
-```jsonŒ
+This query retrieves the existing branches in a repository.
+
+```json
 query getExistingRepoBranches{
   organization(login: "my-org") {
     repository(name: "my-repo") {
@@ -101,7 +103,9 @@ query getExistingRepoBranches{
 
 ### Teams
 
-```jsonŒ
+This query fetches information about a specific team within an organization.
+
+```json
 query getTeam {
 	organization(login: "my-org") {
 		team(slug: "my-team") {
@@ -110,8 +114,9 @@ query getTeam {
 	}
 }
 ```
+This query retrieves information about teams within an organization, including the names of the teams and their members.
 
-```jsonŒ
+```json
 query getTeams {
 	organization(login: "my-org") {
 		teams(first: 10) {
@@ -129,6 +134,8 @@ query getTeams {
 	}
 }
 ```
+
+This query retrieves repositories associated with a specific team, including the repository name and permission level.
 
 ```jsonŒ
 query get_team_repos {
@@ -148,11 +155,11 @@ query get_team_repos {
 }
 ```
 
-### Users
-
 ### Org
 
-```jsonŒ
+This query fetches the IP allow list entries for an organization, including details like ID, name, allow list value, and status.
+
+```json
 query get_IP_allow_list {
 	organization(login: "my-org") {
 		ipAllowListEntries(first: 100) {
@@ -174,7 +181,9 @@ query get_IP_allow_list {
 
 ### Enterprise
 
-```jsonŒ
+This query retrieves statistics for an enterprise, including billing information and member count.
+
+```json
 query getStats {
 	enterprise(slug: "my-enterprise") {
 		billingInfo {
@@ -198,7 +207,9 @@ query getStats {
 
 ### Repos
 
-```jsonŒ
+This mutation updates the settings of a repository, such as its description and wiki enablement.
+
+```json
 mutation change_repo_settings {
 	updateRepository(
 		input: {
@@ -214,7 +225,9 @@ mutation change_repo_settings {
 }
 ```
 
-```jsonŒ
+This mutation creates a branch protection rule for a repository.
+
+```json
 mutation create_branch_protection_rule {
 	createBranchProtectionRule(
 		input: {
@@ -230,8 +243,9 @@ mutation create_branch_protection_rule {
 	}
 }
 ```
+This mutation updates an existing branch protection rule.
 
-```jsonŒ
+```json
 mutation update_branch_protection_rule {
 	updateBranchProtectionRule(
 		input: {
@@ -255,7 +269,8 @@ mutation update_branch_protection_rule {
 }
 ```
 
-```jsonŒ
+This mutation sets a topic (tag) for a repository.
+```json
 mutation set_topic {
 	updateTopics(input: { repositoryId: "my-repo-id", topicNames: "my-topic" }) {
 		clientMutationId
@@ -265,7 +280,8 @@ mutation set_topic {
 
 ### Organizations
 
-```jsonŒ
+This mutation adds an IP to an organization's IP allow list.
+```json
 mutation add_ip_to_list {
 	createIpAllowListEntry(
 		input: {
