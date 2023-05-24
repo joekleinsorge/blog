@@ -14,7 +14,7 @@ Sharing is caring and throughout my days, I bookmark a ton of resources that I f
 - <https://awsdevops.io/>
 - <https://digital.ai/periodic-table-of-devops-tools>
 - <https://cloud.google.com/architecture/managing-infrastructure-as-code-with-terraform-jenkins-and-gitops>
-- <https://www.udemy.com/course/devops-deployment-automation-terraform-aws-docker/>
+-
 
 ## Unix
 
@@ -34,9 +34,8 @@ Sharing is caring and throughout my days, I bookmark a ton of resources that I f
 - <https://github.com/run-x/awesome-kubernetes>
 - <https://gruntwork.io/guides/kubernetes/how-to-deploy-production-grade-kubernetes-cluster-aws/#vpc-configuration>
 
-## Home Lab
+## Home Labbing / Self Hosting
 
-- <https://openhomelab.org/index.php/Main_Page>
 - <https://github.com/awesome-selfhosted/awesome-selfhosted>
 
 ## Troubleshooting

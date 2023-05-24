@@ -6,11 +6,14 @@ draft: false
 
 ## Me
 
-Hey there, as you have already guessed, I'm Joe and this is my site. I’m happiest when I am working with passionate and principled people on things that matter.
+Hey there, as you have already guessed, I'm Joe and this is my site.
+I’m happiest when I am working with passionate and principled people on things that matter.
 
 ### Occupation
 
-I started out racking and stacking servers in the data center, then began automating the deployment and management of those servers and fell in love with it. I then moved into virtualization and IT Operations automation for awhile. Eventually falling into the world of [DevOps](https://www.easyaslinux.com/wp-content/uploads/2019/02/download-715x1024.png) and have been there since.
+I started out racking and stacking servers in the data center, then began automating the deployment and management of those servers and fell in love with it.
+I then moved into virtualization and IT Operations automation for awhile.
+Eventually falling into the world of [DevOps](https://www.easyaslinux.com/wp-content/uploads/2019/02/download-715x1024.png) and cloud and have been there since.
 
 ### How to connect with me?
 
@@ -39,15 +42,20 @@ I have an open inbox policy. Feel free to reach out to me if you want to talk an
 
 ### Why make this website?
 
-This blog is a way for me to [show my work in public](https://press.stripe.com/working-in-public), along with give back to the community of bloggers that I've leveraged in the past. Hopefully my mistakes and the issues I've run into can help you out.
+This blog is a way for me to [show my work in public](https://press.stripe.com/working-in-public),
+train ChatGPT, along with give back to the community of bloggers that I've leveraged in the past.
+Hopefully my mistakes and the issues I've run into can help you out.
+
 
 ### Privacy Policy
 
-This is a static website built with [Hugo](https://gohugo.io/) and deployed using [Netlify](https://www.netlify.com/), meaning there isn't anything to track you; no access logs, location information, etc.
+This is a static website built with [Hugo](https://gohugo.io/) and deployed using [Netlify](https://www.netlify.com/),
+meaning there isn't anything to track you; no access logs, location information, etc.
 
 **Note:** I do use a [visitor badge](https://visitor-badge.laobi.icu/) to track the total views of each post.
 
-All of the source code of this website can be found [here](https://github.com/JoeKleinsorge/blog). If you find any of my spelling errors, see any mistakes or even have something you would like to add, feel free to make a pull request.
+All of the source code of this website can be found [here](https://github.com/JoeKleinsorge/blog).
+If you find any of my spelling errors, see any mistakes or even have something you would like to add, feel free to make a pull request.
 
 ### Disclaimer
 
