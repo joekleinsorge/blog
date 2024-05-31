@@ -13,8 +13,7 @@ Sharing is caring and throughout my days, I bookmark a ton of resources that I f
 
 - <https://awsdevops.io/>
 - <https://digital.ai/periodic-table-of-devops-tools>
-- <https://cloud.google.com/architecture/managing-infrastructure-as-code-with-terraform-jenkins-and-gitops>
--
+
 
 ## Unix
 
