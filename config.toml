@@ -47,7 +47,7 @@ disableHugoGeneratorInject = false
   images = ""
   homeSubtitle = "Avid lover of automation, code that works and coffee."
   disableReadOtherPosts = false
-  EnableThemeToggle = true
+  EnableThemeToggle = false
   enableSharingButtons = true
   enableGlobalLanguageMenu = false
   customCSS = []
@@ -109,10 +109,10 @@ disableHugoGeneratorInject = false
     identifier = "posts"
     name       = "Posts"
     url        = "posts/"
-  [[menu.main]]
-    identifier = "now"
-    name       = "Now"
-    url        = "now"
+  # [[menu.main]]
+  #   identifier = "now"
+  #   name       = "Now"
+  #   url        = "now"
 
 [module]
   [[module.mounts]]
