@@ -223,10 +223,11 @@ jobs:
           RECIPIENT_EMAIL: ${{ secrets.RECIPIENT_EMAIL }}
           SENDER_EMAIL: ${{ secrets.SENDER_EMAIL }}
         run: go run remind.go
-
 ```
 
-## Step 6: Profit
+## Step 6: Get an Email!
+
+{{< image src="/img/remind_email.png" alt="Remind Email Showcase" position="center" style="border-radius: 8px;" >}}
 
 I now have a script that runs once a day and sends me a few random highlights from my Kindle Clippings file.
 This was a fun little project to work on and I learned a lot about Go and automated emails in the process.
